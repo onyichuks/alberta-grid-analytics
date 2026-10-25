@@ -1,0 +1,223 @@
+asset_id,asset_name,maximum_capability_mw,fuel_type,sub_fuel_type
+ANC1,"AB Newsprint (ANC1)",63,GAS,Simple Cycle
+ALP1,"Bantry (ALP1)",7,GAS,Simple Cycle
+BHL1,"Bellshill (BHL1)",5,GAS,Simple Cycle
+VBN1,"Benalto 1 (VBN1)*",5,GAS,Simple Cycle
+VBR1,"Briker 1 (VBR1)*",5,GAS,Simple Cycle
+GEN5,"Carson Creek (GEN5)",15,GAS,Simple Cycle
+ENC1,"Cloverbar #1 (ENC1)",48,GAS,Simple Cycle
+ENC2,"Cloverbar #2 (ENC2)",101,GAS,Simple Cycle
+ENC3,"Cloverbar #3 (ENC3)",101,GAS,Simple Cycle
+CRS1,"Crossfield Energy Centre #1 (CRS1)",48,GAS,Simple Cycle
+CRS2,"Crossfield Energy Centre #2 (CRS2)",48,GAS,Simple Cycle
+DRW1,"Drywood (DRW1)",6,GAS,Simple Cycle
+HRV1,"High River 1 (HRV1)",10,GAS,Simple Cycle
+HRV2,"High River 2 (HRV2)",10,GAS,Simple Cycle
+GEN6,"Judy Creek (GEN6)",15,GAS,Simple Cycle
+VKW1,"Kenilworth 1 (VKW1)*",5,GAS,Simple Cycle
+ME03,"Lethbridge Burdett (ME03)",7,GAS,Simple Cycle
+ME04,"Lethbridge Coaldale (ME04)",6,GAS,Simple Cycle
+ME02,"Lethbridge Taber (ME02)",8,GAS,Simple Cycle
+MUL1,"Mulligan (MUL1)*",5,GAS,Simple Cycle
+NPC2,"NPC2 JL Landry (NPC2)",9,GAS,Simple Cycle
+NPC3,"NPC3 Elmworth (NPC3)",9,GAS,Simple Cycle
+VNT1,"Netook 1 (VNT1)*",5,GAS,Simple Cycle
+NPP1,"Northern Prairie Power Project (NPP1)",105,GAS,Simple Cycle
+VNV1,"Northern Valley 1 (VNV1)*",5,GAS,Simple Cycle
+ALP2,"Parkland (ALP2)",10,GAS,Simple Cycle
+PH1,"Poplar Hill #1 (PH1)",48,GAS,Simple Cycle
+RB5,"Rainbow #5 (RB5)",50,GAS,Simple Cycle
+NAT1,"Ralston (NAT1)",20,GAS,Simple Cycle
+RIM1,"Rimbey Gas (RIM1)*",15,GAS,Simple Cycle
+SDH1,"Saddle Hills (SDH1)",10,GAS,Simple Cycle
+SET1,"South Edmonton Terminal (SET1)",20,GAS,Simple Cycle
+VVW1,"Valley View 1 (VVW1)",50,GAS,Simple Cycle
+VVW2,"Valley View 2 (VVW2)",50,GAS,Simple Cycle
+WCD1,"West Cadotte (WCD1)",20,GAS,Simple Cycle
+PMB1,"West Pembina (PMB1)*",13,GAS,Simple Cycle
+WLC1,"Wilson Creek (WLC1)",9,GAS,Simple Cycle
+ALS1,"Air Liquide Scotford #1 (ALS1)",106,GAS,Cogeneration
+HMT1,"AltaGas Harmattan (HMT1)",45,GAS,Cogeneration
+SCR1,"Base Plant (SCR1)",856,GAS,Cogeneration
+BCRK,"Bear Creek 1 (BCRK)",64,GAS,Cogeneration
+BCR2,"Bear Creek 2 (BCR2)",36,GAS,Cogeneration
+BFD1,"Blackfalds (BFD1)",6,GAS,Cogeneration
+CNR5,"CNRL Horizon (CNR5)*",203,GAS,Cogeneration
+COD1,"COD1 Coaldale (COD1)",5,GAS,Cogeneration
+CRG1,"Camrose (CRG1)*",10,GAS,Cogeneration
+SHCG,"Caroline (SHCG)*",19,GAS,Cogeneration
+TC01,"Carseland Cogen (TC01)",95,GAS,Cogeneration
+CL01,"Christina Lake (CL01)",100,GAS,Cogeneration
+DOWG,"Dow Hydrocarbon (DOWG)",326,GAS,Cogeneration
+TLM2,"Edson (TLM2)",13,GAS,Cogeneration
+EPS1,"Empress (EPS1)*",46,GAS,Cogeneration
+SCR6,"Firebag (SCR6)",497,GAS,Cogeneration
+FH1,"Fort Hills (FH1)",199,GAS,Cogeneration
+EC04,"Foster Creek (EC04)",98,GAS,Cogeneration
+HRT1,"Heartland Petrochemical (HRT1)",108,GAS,Cogeneration
+JOF1,"Joffre #1 (JOF1)",474,GAS,Cogeneration
+KAS1,"Kaybob 3 Cogen South (KAS1)*",33,GAS,Cogeneration
+IOR3,"Kearl (IOR3)",84,GAS,Cogeneration
+PEC1,"Lindbergh (PEC1)*",23,GAS,Cogeneration
+MEG1,"MEG1 Christina Lake (MEG1)",202,GAS,Cogeneration
+MKRC,"MacKay River (MKRC)",207,GAS,Cogeneration
+IOR1,"Mahkeses (IOR1)",180,GAS,Cogeneration
+MKR1,"Muskeg River (MKR1)",202,GAS,Cogeneration
+IOR2,"Nabiye (IOR2)*",195,GAS,Cogeneration
+NX02,"Nexen Inc #2 (NX02)",220,GAS,Cogeneration
+SCR5,"Poplar Creek (SCR5)",376,GAS,Cogeneration
+PR1,"Primrose #1 (PR1)",100,GAS,Cogeneration
+RL1,"Rainbow Lake #1 (RL1)",47,GAS,Cogeneration
+TC02,"Redwater Cogen (TC02)",92,GAS,Cogeneration
+APS1,"Scotford Upgrader (APS1)",195,GAS,Cogeneration
+IOR4,"Strathcona (IOR4)*",50,GAS,Cogeneration
+SCL1,"Syncrude #1 (SCL1)",510,GAS,Cogeneration
+UOC1,"U of C Generator (UOC1)*",12,GAS,Cogeneration
+UOA1,"University of Alberta (UOA1)*",39,GAS,Cogeneration
+WPT1,"Wapiti (WPT1)*",30,GAS,Cogeneration
+WEM1,"Wembley (WEM1)*",19,GAS,Cogeneration
+CAS1,"Cascade 1 (CAS1)",466,GAS,Combined Cycle
+CAS2,"Cascade 2 (CAS2)",466,GAS,Combined Cycle
+EC01,"Cavalier (EC01)",120,GAS,Combined Cycle
+CAL1,"ENMAX Calgary Energy Centre (CAL1)",330,GAS,Combined Cycle
+FNG1,"Fort Nelson (FNG1)",73,GAS,Combined Cycle
+GNR1,"Genesee Repower 1 (GNR1)",466,GAS,Combined Cycle
+GNR2,"Genesee Repower 2 (GNR2)",466,GAS,Combined Cycle
+HRM,"H.R. Milner (HRM)",300,GAS,Combined Cycle
+CMH1,"Medicine Hat #1 (CMH1)",299,GAS,Combined Cycle
+NX01,"Nexen Inc #1 (NX01)",120,GAS,Combined Cycle
+EGC1,"Shepard (EGC1)",868,GAS,Combined Cycle
+BR4,"Battle River #4 (BR4)",155,GAS,Gas Fired Steam
+BR5,"Battle River #5 (BR5)",395,GAS,Gas Fired Steam
+GN3,"Genesee #3 (GN3)",466,GAS,Gas Fired Steam
+KH2,"Keephills #2 (KH2)",395,GAS,Gas Fired Steam
+KH3,"Keephills #3 (KH3)",466,GAS,Gas Fired Steam
+SH1,"Sheerness #1 (SH1)",400,GAS,Gas Fired Steam
+SH2,"Sheerness #2 (SH2)",400,GAS,Gas Fired Steam
+SD6,"Sundance #6 (SD6)",401,GAS,Gas Fired Steam
+BIG,"Bighorn Hydro (BIG)",120,HYDRO,HYDRO
+BOW1,"Bow River Hydro (BOW1)",320,HYDRO,HYDRO
+BRA,"Brazeau Hydro (BRA)",350,HYDRO,HYDRO
+CHIN,"Chin Chute (CHIN)",12,HYDRO,HYDRO
+DKSN,"Dickson Dam (DKSN)",15,HYDRO,HYDRO
+ICP1,"Irrican Hydro (ICP1)",7,HYDRO,HYDRO
+OMRH,"Oldman River (OMRH)",32,HYDRO,HYDRO
+TAY1,"Taylor Hydro (TAY1)",14,HYDRO,HYDRO
+RPT2,"Raptor Battery (RPT2)",80,ENERGY STORAGE,ENERGY STORAGE
+SUM1,"Summerview (SUM1)",10,ENERGY STORAGE,ENERGY STORAGE
+ERV1,"eReserve1 Rycroft (ERV1)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV2,"eReserve2 Buffalo Creek (ERV2)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV3,"eReserve3 Mercer Hill (ERV3)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV4,"eReserve4 (ERV4)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV5,"eReserve5 Hughenden (ERV5)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV6,"eReserve6 (ERV6)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV7,"eReserve7 (ERV7)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV8,"eReserve8 (ERV8)",20,ENERGY STORAGE,ENERGY STORAGE
+ERV9,"eReserve9 (ERV9)",20,ENERGY STORAGE,ENERGY STORAGE
+BRD1,"BRD1 Burdett (BRD1)",11,SOLAR,SOLAR
+BUR1,"BUR1 Burdett (BUR1)",20,SOLAR,SOLAR
+BLS1,"Barlow Solar (BLS1)",31,SOLAR,SOLAR
+ACD1,"Big Sky Solar (ACD1)",140,SOLAR,SOLAR
+BSC1,"Brooks Solar (BSC1)",15,SOLAR,SOLAR
+BRK1,"Brooks Solar 1 (BRK1)",13,SOLAR,SOLAR
+BRK2,"Brooks Solar 2 (BRK2)",14,SOLAR,SOLAR
+CLR1,"Claresholm 1 (CLR1)",58,SOLAR,SOLAR
+CLR2,"Claresholm 2 (CLR2)",75,SOLAR,SOLAR
+CLY1,"Clydesdale 1 (CLY1)",41,SOLAR,SOLAR
+CLY2,"Clydesdale 2 (CLY2)",34,SOLAR,SOLAR
+CRD1,"Conrad 1 (CRD1)",23,SOLAR,SOLAR
+CRD2,"Conrad 2 (CRD2)",18,SOLAR,SOLAR
+DFT1,"Deerfoot (DFT1)",41,SOLAR,SOLAR
+DUS1,"Duchess Solar (DUS1)",20,SOLAR,SOLAR
+NMK1,"East Strathmore Namaka (NMK1)",20,SOLAR,SOLAR
+EMP1,"Empress Solar Park (EMP1)",39,SOLAR,SOLAR
+FCS1,"Fox Coulee Solar (FCS1)",80,SOLAR,SOLAR
+GLE1,"Gleichen Solar (GLE1)",14,SOLAR,SOLAR
+HYS1,"Hays (HYS1)",23,SOLAR,SOLAR
+HUL1,"Hull (HUL1)",25,SOLAR,SOLAR
+INF1,"Innisfail (INF1)",22,SOLAR,SOLAR
+JER1,"Jenner (JER1)",23,SOLAR,SOLAR
+JFS1,"Joffre Solar 1 (JFS1)",25,SOLAR,SOLAR
+JFS2,"Joffre Solar 2 (JFS2)",22,SOLAR,SOLAR
+KIL1,"Killarney Lake Solar (KIL1)",22,SOLAR,SOLAR
+TRH1,"Kneehill Solar (TRH1)",25,SOLAR,SOLAR
+CLD1,"Lethbridge Solar (CLD1)",9,SOLAR,SOLAR
+MIC1,"Michichi Solar (MIC1)",25,SOLAR,SOLAR
+SDL1,"Saddlebrook Solar (SDL1)",81,SOLAR,SOLAR
+SLR1,"Sollair Solar Energy Plant (SLR1)",75,SOLAR,SOLAR
+SGC1,"Spring Coulee (SGC1)",30,SOLAR,SOLAR
+STV1,"Stavely (STV1)",17,SOLAR,SOLAR
+STR1,"Strathmore 1 (STR1)",18,SOLAR,SOLAR
+STR2,"Strathmore 2 (STR2)",23,SOLAR,SOLAR
+SUF1,"Suffield (SUF1)",23,SOLAR,SOLAR
+TLE1,"Tilley Solar (TLE1)",24,SOLAR,SOLAR
+TVS1,"Travers (TVS1)",465,SOLAR,SOLAR
+VXH1,"Vauxhall (VXH1)",22,SOLAR,SOLAR
+WEF1,"Westfield Yellow Lake (WEF1)",19,SOLAR,SOLAR
+WCR1,"Wheatcrest (WCR1)",50,SOLAR,SOLAR
+YNG1,"Youngstown Solar (YNG1)",6,SOLAR,SOLAR
+ARD1,"Ardenville Wind (ARD1)*",68,WIND,WIND
+BUL1,"BUL1 Bull Creek (BUL1)*",13,WIND,WIND
+BUL2,"BUL2 Bull Creek (BUL2)*",16,WIND,WIND
+BSR1,"Blackspring Ridge (BSR1)*",300,WIND,WIND
+BTR1,"Blue Trail Wind (BTR1)*",66,WIND,WIND
+BFL1,"Buffalo Atlee 1 (BFL1)*",18,WIND,WIND
+BFL2,"Buffalo Atlee 2 (BFL2)*",16,WIND,WIND
+BFL3,"Buffalo Atlee 3 (BFL3)*",18,WIND,WIND
+BFL4,"Buffalo Atlee 4 (BFL4)*",11,WIND,WIND
+BPW1,"Buffalo Plains (BPW1)*",466,WIND,WIND
+CR1,"Castle River #1 (CR1)*",39,WIND,WIND
+CRR2,"Castle Rock Ridge 2 (CRR2)*",29,WIND,WIND
+CRR1,"Castle Rock Wind Farm (CRR1)*",77,WIND,WIND
+CRE3,"Cowley Ridge (CRE3)*",20,WIND,WIND
+CYP1,"Cypress 1 (CYP1)*",196,WIND,WIND
+CYP2,"Cypress 2 (CYP2)*",46,WIND,WIND
+TAB1,"Enmax Taber (TAB1)*",81,WIND,WIND
+FRM1,"Forty Mile Bow Island (FRM1)*",266,WIND,WIND
+FMG1,"Forty Mile Granlea (FMG1)*",220,WIND,WIND
+GDP1,"Garden Plain (GDP1)*",130,WIND,WIND
+NEP1,"Ghost Pine (NEP1)*",82,WIND,WIND
+GRZ1,"Grizzly Bear (GRZ1)*",152,WIND,WIND
+HAL2,"Halkirk 2 (HAL2)*",122,WIND,WIND
+HAL1,"Halkirk Wind Power Facility (HAL1)*",150,WIND,WIND
+HHW1,"Hand Hills (HHW1)*",145,WIND,WIND
+HLD1,"Hilda Wind (HLD1)*",100,WIND,WIND
+JNR1,"Jenner 1 (JNR1)*",122,WIND,WIND
+JNR2,"Jenner 2 (JNR2)*",71,WIND,WIND
+JNR3,"Jenner 3 (JNR3)*",109,WIND,WIND
+KHW1,"Kettles Hill (KHW1)*",63,WIND,WIND
+LAN1,"Lanfine Wind (LAN1)*",151,WIND,WIND
+AKE1,"McBride Lake Windfarm (AKE1)*",73,WIND,WIND
+OWF1,"Oldman 2 Wind Farm 1 (OWF1)*",46,WIND,WIND
+PAW1,"Paintearth Wind Project (PAW1)*",198,WIND,WIND
+RTL1,"Rattlesnake Ridge Wind (RTL1)*",130,WIND,WIND
+RIV1,"Riverview (RIV1)*",105,WIND,WIND
+SHH1,"Sharp Hill Wind (SHH1)*",297,WIND,WIND
+GWW1,"Soderglen Wind (GWW1)*",71,WIND,WIND
+SWP1,"Stirling Wind (SWP1)*",113,WIND,WIND
+IEW1,"Summerview 1 (IEW1)*",66,WIND,WIND
+IEW2,"Summerview 2 (IEW2)*",66,WIND,WIND
+SCR3,"Suncor Chin Chute (SCR3)*",30,WIND,WIND
+SCR2,"Suncor Magrath (SCR2)*",30,WIND,WIND
+WHE1,"Wheatland Wind (WHE1)*",120,WIND,WIND
+WHT1,"Whitla 1 (WHT1)*",202,WIND,WIND
+WHT2,"Whitla 2 (WHT2)*",151,WIND,WIND
+WIR1,"Wild Rose (WIR1)",192,WIND,WIND
+WRW1,"Windrise (WRW1)*",207,WIND,WIND
+WIN1,"Winnifred Wind (WIN1)*",136,WIND,WIND
+SCR4,"Wintering Hills (SCR4)*",88,WIND,WIND
+AFG1,"APF Athabasca (AFG1)*",131,BIOMASS,BIOMASS AND OTHER
+BON1,"Bonnybrook (BON1)*",10,BIOMASS,BIOMASS AND OTHER
+CCMH,"Cancarb Medicine Hat (CCMH)",42,BIOMASS,BIOMASS AND OTHER
+DAI1,"DAI1 Daishowa (DAI1)*",69,BIOMASS,BIOMASS AND OTHER
+ETL1,"ETL1 Ethel Lake (ETL1)*",18,BIOMASS,BIOMASS AND OTHER
+GOC1,"Gold Creek Facility (GOC1)",5,BIOMASS,BIOMASS AND OTHER
+GPEC,"Grande Prairie EcoPower (GPEC)",18,BIOMASS,BIOMASS AND OTHER
+NRG3,"NRGreen (NRG3)",16,BIOMASS,BIOMASS AND OTHER
+SLP1,"Slave Lake (SLP1)*",9,BIOMASS,BIOMASS AND OTHER
+SRL1,"Swan Hills Geothermal (SRL1)",20,BIOMASS,BIOMASS AND OTHER
+WWD1,"Weldwood #1 (WWD1)*",50,BIOMASS,BIOMASS AND OTHER
+WST1,"Westlock (WST1)*",18,BIOMASS,BIOMASS AND OTHER
+WEY1,"Weyerhaeuser (WEY1)",48,BIOMASS,BIOMASS AND OTHER
+MW2U,"Whitecourt (MW2U)*",6,BIOMASS,BIOMASS AND OTHER
+EAGL,"Whitecourt Power (EAGL)",25,BIOMASS,BIOMASS AND OTHER

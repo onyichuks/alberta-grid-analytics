@@ -1,0 +1,934 @@
+{
+ "load": {
+  "setup": {
+   "test": "2023 to July 2025",
+   "retraining": [
+    {
+     "test_year": 2023,
+     "train": "2015 to 2021",
+     "calibration": "2022",
+     "adjustment": {
+      "10-90": 99.05909070308007,
+      "25-75": 51.86698348764003
+     },
+     "train_hours": 61368
+    },
+    {
+     "test_year": 2024,
+     "train": "2016 to 2022",
+     "calibration": "2023",
+     "adjustment": {
+      "10-90": 57.396109539931786,
+      "25-75": 30.38350717013782
+     },
+     "train_hours": 61368
+    },
+    {
+     "test_year": 2025,
+     "train": "2017 to 2023",
+     "calibration": "2024",
+     "adjustment": {
+      "10-90": 87.09193372135633,
+      "25-75": 43.53756967089976
+     },
+     "train_hours": 61344
+    }
+   ],
+   "issue_time": "morning of the day before (all load inputs at least 48 hours old)",
+   "weather_input": "ERA5 temperature for the hour, standing in for a day-ahead weather forecast",
+   "test_hours": 22631,
+   "features": [
+    "hour",
+    "dow",
+    "month",
+    "doy_sin",
+    "doy_cos",
+    "holiday",
+    "weekend_or_holiday",
+    "calgary_temp",
+    "calgary_temp_daymean",
+    "calgary_temp_lag24",
+    "edmonton_temp",
+    "edmonton_temp_daymean",
+    "edmonton_temp_lag24",
+    "load_lag48_rel",
+    "load_lag168_rel",
+    "load_lag336_rel",
+    "load_daymean_lag48_rel"
+   ]
+  },
+  "scores": [
+   {
+    "model": "Seasonal naive (same hour last week)",
+    "period": "all test",
+    "n": 22631,
+    "mae": 303.33637488400865,
+    "mape_pct": 2.9914504890156013,
+    "bias": 4.948323096637356,
+    "pinball_mean": 109.34901542132475,
+    "coverage_10_90_pct": 72.88674826565331,
+    "width_10_90": 810.3775308205555,
+    "coverage_25_75_pct": 43.519950510361895,
+    "width_25_75": 399.1593831470107
+   },
+   {
+    "model": "Seasonal naive (same hour last week)",
+    "period": "2023",
+    "n": 8760,
+    "mae": 272.28173515981734,
+    "mape_pct": 2.7506892796661884,
+    "bias": 3.5537671232876713,
+    "pinball_mean": 98.3057810502283,
+    "coverage_10_90_pct": 76.82648401826484,
+    "width_10_90": 810.373356164383,
+    "coverage_25_75_pct": 48.789954337899545,
+    "width_25_75": 399.1571917808219
+   },
+   {
+    "model": "Seasonal naive (same hour last week)",
+    "period": "2024",
+    "n": 8784,
+    "mae": 319.600808287796,
+    "mape_pct": 3.12786352776575,
+    "bias": -2.921163479052823,
+    "pinball_mean": 114.4486962090164,
+    "coverage_10_90_pct": 70.525956284153,
+    "width_10_90": 810.373349271402,
+    "coverage_25_75_pct": 40.00455373406193,
+    "width_25_75": 399.1571892076503
+   },
+   {
+    "model": "Seasonal naive (same hour last week)",
+    "period": "2025",
+    "n": 5087,
+    "mae": 328.72891684686454,
+    "mape_pct": 3.170498269931573,
+    "bias": 20.938470611362295,
+    "pinball_mean": 119.55997218399844,
+    "coverage_10_90_pct": 70.1788873599371,
+    "width_10_90": 810.3919402398265,
+    "coverage_25_75_pct": 40.5150383330057,
+    "width_25_75": 399.16694515431493
+   },
+   {
+    "model": "First attempt: absolute load, trained once",
+    "period": "all test",
+    "n": 22631,
+    "mae": 200.3223635712204,
+    "mape_pct": 1.951387578546901,
+    "bias": -148.28440321517314,
+    "pinball_mean": 71.01284044233898,
+    "coverage_10_90_pct": 67.98639034952056,
+    "width_10_90": 496.2972296345552,
+    "coverage_25_75_pct": 40.347311210286776,
+    "width_25_75": 261.9692260014401
+   },
+   {
+    "model": "First attempt: absolute load, trained once",
+    "period": "2023",
+    "n": 8760,
+    "mae": 151.38549453393935,
+    "mape_pct": 1.5229527054596577,
+    "bias": -76.34374929563411,
+    "pinball_mean": 52.598746748786496,
+    "coverage_10_90_pct": 79.71461187214612,
+    "width_10_90": 492.0113558337209,
+    "coverage_25_75_pct": 50.52511415525114,
+    "width_25_75": 262.7183742765659
+   },
+   {
+    "model": "First attempt: absolute load, trained once",
+    "period": "2024",
+    "n": 8784,
+    "mae": 213.35398745236202,
+    "mape_pct": 2.0668145687425485,
+    "bias": -169.7793439417409,
+    "pinball_mean": 75.54767306863037,
+    "coverage_10_90_pct": 63.85473588342441,
+    "width_10_90": 497.0382036557294,
+    "coverage_25_75_pct": 36.13387978142077,
+    "width_25_75": 261.9528455609974
+   },
+   {
+    "model": "First attempt: absolute load, trained once",
+    "period": "2025",
+    "n": 5087,
+    "mae": 262.09102655424266,
+    "mape_pct": 2.4898540236748112,
+    "bias": -235.05235465865488,
+    "pinball_mean": 94.89204055363771,
+    "coverage_10_90_pct": 54.924316886180456,
+    "width_10_90": 502.3981808225467,
+    "coverage_25_75_pct": 30.096323963043055,
+    "width_25_75": 260.7074502787643
+   },
+   {
+    "model": "Relative load, retrained yearly, raw quantiles",
+    "period": "all test",
+    "n": 22631,
+    "mae": 149.50461966524492,
+    "mape_pct": 1.4839880843009416,
+    "bias": -3.146841276030671,
+    "pinball_mean": 54.63013221180104,
+    "coverage_10_90_pct": 62.72369758296142,
+    "width_10_90": 335.75365930013123,
+    "coverage_25_75_pct": 35.50439662409969,
+    "width_25_75": 171.4188392612815
+   },
+   {
+    "model": "Relative load, retrained yearly, raw quantiles",
+    "period": "2023",
+    "n": 8760,
+    "mae": 138.91542051920652,
+    "mape_pct": 1.4079138189846776,
+    "bias": 3.3880670694660284,
+    "pinball_mean": 49.89217702212882,
+    "coverage_10_90_pct": 64.64611872146119,
+    "width_10_90": 325.93087970680943,
+    "coverage_25_75_pct": 36.43835616438356,
+    "width_25_75": 166.22180696094645
+   },
+   {
+    "model": "Relative load, retrained yearly, raw quantiles",
+    "period": "2024",
+    "n": 8784,
+    "mae": 160.22648234554228,
+    "mape_pct": 1.5781578718539482,
+    "bias": 4.795573859187136,
+    "pinball_mean": 59.13395671030422,
+    "coverage_10_90_pct": 60.62158469945356,
+    "width_10_90": 341.01036358278344,
+    "coverage_25_75_pct": 34.43761384335155,
+    "width_25_75": 174.67531180467432
+   },
+   {
+    "model": "Relative load, retrained yearly, raw quantiles",
+    "period": "2025",
+    "n": 5087,
+    "mae": 149.22558344263126,
+    "mape_pct": 1.4523826489372424,
+    "bias": -28.114793242671976,
+    "pinball_mean": 55.01206519129321,
+    "coverage_10_90_pct": 63.043050914094756,
+    "width_10_90": 343.59180728886355,
+    "coverage_25_75_pct": 35.73815608413604,
+    "width_25_75": 174.74519037780837
+   },
+   {
+    "model": "Relative load, retrained yearly, conformal intervals",
+    "period": "all test",
+    "n": 22631,
+    "mae": 149.50461966524492,
+    "mape_pct": 1.4839880843009416,
+    "bias": -3.146841276030671,
+    "pinball_mean": 53.1510498365205,
+    "coverage_10_90_pct": 81.17184393089126,
+    "width_10_90": 496.1497290803692,
+    "coverage_25_75_pct": 51.279218770712745,
+    "width_25_75": 254.73103220459686
+   },
+   {
+    "model": "Relative load, retrained yearly, conformal intervals",
+    "period": "2023",
+    "n": 8760,
+    "mae": 138.91542051920652,
+    "mape_pct": 1.4079138189846776,
+    "bias": 3.3880670694660284,
+    "pinball_mean": 48.975407891987665,
+    "coverage_10_90_pct": 86.56392694063926,
+    "width_10_90": 524.0490611129695,
+    "coverage_25_75_pct": 56.906392694063925,
+    "width_25_75": 269.95577393622654
+   },
+   {
+    "model": "Relative load, retrained yearly, conformal intervals",
+    "period": "2024",
+    "n": 8784,
+    "mae": 160.22648234554228,
+    "mape_pct": 1.5781578718539482,
+    "bias": 4.795573859187136,
+    "pinball_mean": 57.18269496660095,
+    "coverage_10_90_pct": 74.54462659380692,
+    "width_10_90": 455.802582662647,
+    "coverage_25_75_pct": 45.76502732240437,
+    "width_25_75": 235.44232614494996
+   },
+   {
+    "model": "Relative load, retrained yearly, conformal intervals",
+    "period": "2025",
+    "n": 5087,
+    "mae": 149.22558344263126,
+    "mape_pct": 1.4523826489372424,
+    "bias": -28.114793242671976,
+    "pinball_mean": 53.379996683676175,
+    "coverage_10_90_pct": 83.33005700805975,
+    "width_10_90": 517.7756747315763,
+    "coverage_25_75_pct": 51.110674267741295,
+    "width_25_75": 261.82032971960786
+   }
+  ],
+  "headline": {
+   "mape_naive_pct": 2.9914504890156013,
+   "mape_fixed_pct": 1.951387578546901,
+   "bias_fixed_mw": -148.28440321517314,
+   "mape_gbm_pct": 1.4839880843009416,
+   "mae_gbm_mw": 149.50461966524492,
+   "bias_gbm_mw": -3.146841276030671,
+   "coverage_raw_pct": 62.72369758296142,
+   "coverage_cal_pct": 81.17184393089126,
+   "coverage_fixed_pct": 67.98639034952056,
+   "width_cal_mw": 496.1497290803692,
+   "pinball_skill_pct": 51.39320675935851
+  },
+  "monthly": [
+   {
+    "month": "2023-01",
+    "mape_pct": 1.479856605487235,
+    "bias_mw": -17.258742504298507,
+    "coverage_80_pct": 84.00537634408602
+   },
+   {
+    "month": "2023-02",
+    "mape_pct": 1.5841998578237533,
+    "bias_mw": -71.25206293737037,
+    "coverage_80_pct": 82.44047619047619
+   },
+   {
+    "month": "2023-03",
+    "mape_pct": 1.0927059840253601,
+    "bias_mw": 49.3351736832217,
+    "coverage_80_pct": 91.25168236877523
+   },
+   {
+    "month": "2023-04",
+    "mape_pct": 1.2837559705115393,
+    "bias_mw": -6.951455142323961,
+    "coverage_80_pct": 91.25
+   },
+   {
+    "month": "2023-05",
+    "mape_pct": 1.417874782870822,
+    "bias_mw": 56.555780246845146,
+    "coverage_80_pct": 89.91935483870968
+   },
+   {
+    "month": "2023-06",
+    "mape_pct": 1.62324930881745,
+    "bias_mw": 3.471614752293404,
+    "coverage_80_pct": 83.61111111111111
+   },
+   {
+    "month": "2023-07",
+    "mape_pct": 1.72659656397105,
+    "bias_mw": 55.17901208878276,
+    "coverage_80_pct": 77.8225806451613
+   },
+   {
+    "month": "2023-08",
+    "mape_pct": 1.509821928792887,
+    "bias_mw": 32.10492926485075,
+    "coverage_80_pct": 81.18279569892474
+   },
+   {
+    "month": "2023-09",
+    "mape_pct": 1.4312355121497713,
+    "bias_mw": 58.239363632776836,
+    "coverage_80_pct": 86.66666666666667
+   },
+   {
+    "month": "2023-10",
+    "mape_pct": 1.1040010171856443,
+    "bias_mw": -24.326984114191507,
+    "coverage_80_pct": 93.54838709677419
+   },
+   {
+    "month": "2023-11",
+    "mape_pct": 1.3832458677254502,
+    "bias_mw": -47.81866928394741,
+    "coverage_80_pct": 86.40776699029126
+   },
+   {
+    "month": "2023-12",
+    "mape_pct": 1.2779896436582376,
+    "bias_mw": -53.9270815481844,
+    "coverage_80_pct": 90.3225806451613
+   },
+   {
+    "month": "2024-01",
+    "mape_pct": 2.0572980411304607,
+    "bias_mw": 25.637492847659875,
+    "coverage_80_pct": 47.58064516129032
+   },
+   {
+    "month": "2024-02",
+    "mape_pct": 1.3827641127848893,
+    "bias_mw": -95.59034529587629,
+    "coverage_80_pct": 81.60919540229885
+   },
+   {
+    "month": "2024-03",
+    "mape_pct": 1.4689829223863442,
+    "bias_mw": -20.20698858472995,
+    "coverage_80_pct": 75.10094212651413
+   },
+   {
+    "month": "2024-04",
+    "mape_pct": 1.56660069251668,
+    "bias_mw": -32.74897858245851,
+    "coverage_80_pct": 70.27777777777777
+   },
+   {
+    "month": "2024-05",
+    "mape_pct": 1.4506519265556679,
+    "bias_mw": 14.923584366350726,
+    "coverage_80_pct": 81.72043010752688
+   },
+   {
+    "month": "2024-06",
+    "mape_pct": 1.0769794246975608,
+    "bias_mw": -33.43883972828414,
+    "coverage_80_pct": 86.66666666666667
+   },
+   {
+    "month": "2024-07",
+    "mape_pct": 2.481227575605787,
+    "bias_mw": 96.96144950585622,
+    "coverage_80_pct": 67.47311827956989
+   },
+   {
+    "month": "2024-08",
+    "mape_pct": 1.7040362846891872,
+    "bias_mw": 68.22895406025893,
+    "coverage_80_pct": 76.74731182795699
+   },
+   {
+    "month": "2024-09",
+    "mape_pct": 1.9155371629866755,
+    "bias_mw": 55.28740903300598,
+    "coverage_80_pct": 67.77777777777777
+   },
+   {
+    "month": "2024-10",
+    "mape_pct": 1.298903484345175,
+    "bias_mw": -52.44881782604405,
+    "coverage_80_pct": 75.0
+   },
+   {
+    "month": "2024-11",
+    "mape_pct": 1.1270841053841485,
+    "bias_mw": -20.395085377916608,
+    "coverage_80_pct": 88.21081830790568
+   },
+   {
+    "month": "2024-12",
+    "mape_pct": 1.3754747989736056,
+    "bias_mw": 43.232477988031654,
+    "coverage_80_pct": 77.28494623655914
+   },
+   {
+    "month": "2025-01",
+    "mape_pct": 1.280609589297635,
+    "bias_mw": -88.82162314443933,
+    "coverage_80_pct": 89.24731182795699
+   },
+   {
+    "month": "2025-02",
+    "mape_pct": 1.5777869335012622,
+    "bias_mw": 55.58138465891026,
+    "coverage_80_pct": 76.33928571428571
+   },
+   {
+    "month": "2025-03",
+    "mape_pct": 1.6945931098932323,
+    "bias_mw": -130.9192995681068,
+    "coverage_80_pct": 72.8129205921938
+   },
+   {
+    "month": "2025-04",
+    "mape_pct": 1.3153075111579227,
+    "bias_mw": -3.40751833384082,
+    "coverage_80_pct": 87.08333333333333
+   },
+   {
+    "month": "2025-05",
+    "mape_pct": 1.2912704890521198,
+    "bias_mw": -8.014186443910537,
+    "coverage_80_pct": 88.5752688172043
+   },
+   {
+    "month": "2025-06",
+    "mape_pct": 1.3002823736720328,
+    "bias_mw": 42.347667479219396,
+    "coverage_80_pct": 89.02777777777777
+   },
+   {
+    "month": "2025-07",
+    "mape_pct": 1.7099617470570538,
+    "bias_mw": -52.53853385496901,
+    "coverage_80_pct": 79.83870967741936
+   }
+  ],
+  "mape_by_hour": {
+   "0": 1.4352105688190002,
+   "1": 1.4054056361402518,
+   "2": 1.344863677514428,
+   "3": 1.3245767159535162,
+   "4": 1.3211093219192238,
+   "5": 1.3282398098270514,
+   "6": 1.4156208065164582,
+   "7": 1.4490686434399118,
+   "8": 1.4354212410299911,
+   "9": 1.4487318255113708,
+   "10": 1.502911316330521,
+   "11": 1.5490404061060359,
+   "12": 1.5907459164772058,
+   "13": 1.6124408542701583,
+   "14": 1.641415457375095,
+   "15": 1.6337533419970605,
+   "16": 1.5725108414696138,
+   "17": 1.5489467967122763,
+   "18": 1.5397768826214144,
+   "19": 1.553344850229652,
+   "20": 1.536474878984562,
+   "21": 1.5039856027733365,
+   "22": 1.4568341645353977,
+   "23": 1.4650085299521631
+  },
+  "worst_hours": [
+   {
+    "time_local": "2024-07-25 17:00",
+    "error_mw": 1097.2340641775227,
+    "actual_mw": 10771.0
+   },
+   {
+    "time_local": "2024-07-25 16:00",
+    "error_mw": 1088.356897249334,
+    "actual_mw": 10752.0
+   },
+   {
+    "time_local": "2024-07-25 15:00",
+    "error_mw": 1080.9596842893825,
+    "actual_mw": 10778.0
+   },
+   {
+    "time_local": "2024-08-05 12:00",
+    "error_mw": 1034.1617738201749,
+    "actual_mw": 10092.0
+   },
+   {
+    "time_local": "2024-07-25 13:00",
+    "error_mw": 1025.6478946180869,
+    "actual_mw": 10765.0
+   },
+   {
+    "time_local": "2024-08-05 13:00",
+    "error_mw": 1009.1876248628068,
+    "actual_mw": 10193.0
+   },
+   {
+    "time_local": "2024-08-05 11:00",
+    "error_mw": 992.8525759406639,
+    "actual_mw": 9980.0
+   },
+   {
+    "time_local": "2024-08-05 10:00",
+    "error_mw": 982.0741103257333,
+    "actual_mw": 9834.0
+   }
+  ],
+  "importance": [
+   {
+    "feature": "load_lag48_rel",
+    "mae_increase": 0.01102309524641737
+   },
+   {
+    "feature": "load_lag168_rel",
+    "mae_increase": 0.006364298959983562
+   },
+   {
+    "feature": "load_lag336_rel",
+    "mae_increase": 0.00509800173280879
+   },
+   {
+    "feature": "edmonton_temp",
+    "mae_increase": 0.004458244766125901
+   },
+   {
+    "feature": "hour",
+    "mae_increase": 0.00418000342126337
+   },
+   {
+    "feature": "weekend_or_holiday",
+    "mae_increase": 0.003362375505226353
+   },
+   {
+    "feature": "edmonton_temp_daymean",
+    "mae_increase": 0.0028471316402099694
+   },
+   {
+    "feature": "calgary_temp",
+    "mae_increase": 0.00212013102298269
+   },
+   {
+    "feature": "calgary_temp_daymean",
+    "mae_increase": 0.0019984116871669014
+   },
+   {
+    "feature": "dow",
+    "mae_increase": 0.0017758722517071304
+   },
+   {
+    "feature": "doy_cos",
+    "mae_increase": 0.001212535082653559
+   },
+   {
+    "feature": "doy_sin",
+    "mae_increase": 0.0006595387695917098
+   },
+   {
+    "feature": "month",
+    "mae_increase": 0.00034287494749569585
+   },
+   {
+    "feature": "load_daymean_lag48_rel",
+    "mae_increase": 0.00029210143610674974
+   },
+   {
+    "feature": "edmonton_temp_lag24",
+    "mae_increase": 0.00022838593745005387
+   },
+   {
+    "feature": "calgary_temp_lag24",
+    "mae_increase": 0.00020106366664557457
+   },
+   {
+    "feature": "holiday",
+    "mae_increase": 7.09866298809787e-05
+   }
+  ]
+ },
+ "price": {
+  "setup": {
+   "test": "2024 to July 2025",
+   "retraining": [
+    {
+     "test_year": 2024,
+     "train": "2018 to 2022",
+     "calibration": "2023",
+     "adjustment": {
+      "10-90": 4.471142969707323,
+      "25-75": 1.1179245399955384
+     },
+     "train_hours": 43824
+    },
+    {
+     "test_year": 2025,
+     "train": "2019 to 2023",
+     "calibration": "2024",
+     "adjustment": {
+      "10-90": 1.311025560864735,
+      "25-75": 0.36064730722949
+     },
+     "train_hours": 43824
+    }
+   ],
+   "issue_time": "one hour before delivery (AESO's hour-ahead forecast is published before the hour)",
+   "test_hours": 13871,
+   "features_with_aeso": [
+    "hour",
+    "dow",
+    "month",
+    "doy_sin",
+    "doy_cos",
+    "holiday",
+    "weekend_or_holiday",
+    "price_lag1",
+    "price_lag2",
+    "price_lag3",
+    "price_lag24",
+    "price_lag168",
+    "price_max24_lag1",
+    "price_std24_lag1",
+    "ail_lag1",
+    "ail_change_lag1",
+    "wind_lag1",
+    "solar_lag1",
+    "wind_share_lag1",
+    "wind_change_lag1",
+    "net_import_lag1",
+    "thermal_lag1",
+    "calgary_temp",
+    "edmonton_temp",
+    "aeso_ha_forecast"
+   ]
+  },
+  "scores": [
+   {
+    "model": "Persistence (last hour's price)",
+    "period": "all test",
+    "n": 13871,
+    "mae": 19.914660803114412,
+    "mape_pct": null,
+    "bias": 0.004783360968926367,
+    "pinball_mean": 9.074572736284335,
+    "coverage_10_90_pct": 74.7170355417778,
+    "width_10_90": 32.54572417273449,
+    "coverage_25_75_pct": 37.18549491745368,
+    "width_25_75": 5.729026926681567
+   },
+   {
+    "model": "Persistence (last hour's price)",
+    "period": "2024",
+    "n": 8784,
+    "mae": 22.678273565573768,
+    "mape_pct": null,
+    "bias": -0.00024760928961904314,
+    "pinball_mean": 10.297432488046448,
+    "coverage_10_90_pct": 72.39298724954463,
+    "width_10_90": 33.18929644808743,
+    "coverage_25_75_pct": 35.837887067395265,
+    "width_25_75": 5.755471026867032
+   },
+   {
+    "model": "Persistence (last hour's price)",
+    "period": "2025",
+    "n": 5087,
+    "mae": 15.142580106152938,
+    "mape_pct": null,
+    "bias": 0.01347061136229424,
+    "pinball_mean": 6.962994191075291,
+    "coverage_10_90_pct": 78.73009632396304,
+    "width_10_90": 31.434432868095147,
+    "coverage_25_75_pct": 39.512482799292314,
+    "width_25_75": 5.6833644584234335
+   },
+   {
+    "model": "AESO hour-ahead forecast with its error spread",
+    "period": "all test",
+    "n": 13871,
+    "mae": 15.958679258885445,
+    "mape_pct": null,
+    "bias": 3.475608103236969,
+    "pinball_mean": 7.463570634777595,
+    "coverage_10_90_pct": 73.74378199120467,
+    "width_10_90": 18.500318650421743,
+    "coverage_25_75_pct": 33.8187585610266,
+    "width_25_75": 2.759714332059693
+   },
+   {
+    "model": "AESO hour-ahead forecast with its error spread",
+    "period": "2024",
+    "n": 8784,
+    "mae": 17.975147427140257,
+    "mape_pct": null,
+    "bias": 3.5344552595628413,
+    "pinball_mean": 8.411034278233151,
+    "coverage_10_90_pct": 71.23178506375227,
+    "width_10_90": 18.810394467213115,
+    "coverage_25_75_pct": 32.28597449908926,
+    "width_25_75": 2.7803016848816022
+   },
+   {
+    "model": "AESO hour-ahead forecast with its error spread",
+    "period": "2025",
+    "n": 5087,
+    "mae": 12.476733831334776,
+    "mape_pct": null,
+    "bias": 3.3739935128759577,
+    "pinball_mean": 5.827533551208964,
+    "coverage_10_90_pct": 78.08138391979556,
+    "width_10_90": 17.964893847061138,
+    "coverage_25_75_pct": 36.46550029486927,
+    "width_25_75": 2.72416502850403
+   },
+   {
+    "model": "Gradient boosting, market data only",
+    "period": "all test",
+    "n": 13871,
+    "mae": 18.09627573011087,
+    "mape_pct": null,
+    "bias": -3.117971339198878,
+    "pinball_mean": 6.81973037754093,
+    "coverage_10_90_pct": 83.72864249152909,
+    "width_10_90": 55.44138654037097,
+    "coverage_25_75_pct": 51.15709033234806,
+    "width_25_75": 25.611430980670526
+   },
+   {
+    "model": "Gradient boosting, market data only",
+    "period": "2024",
+    "n": 8784,
+    "mae": 20.615865995514216,
+    "mape_pct": null,
+    "bias": -4.622587440309733,
+    "pinball_mean": 7.714376073595583,
+    "coverage_10_90_pct": 85.53051001821494,
+    "width_10_90": 64.34855555765706,
+    "coverage_25_75_pct": 52.16302367941712,
+    "width_25_75": 29.87425069723172
+   },
+   {
+    "model": "Gradient boosting, market data only",
+    "period": "2025",
+    "n": 5087,
+    "mae": 13.745561971254382,
+    "mape_pct": null,
+    "bias": -0.5198687576856581,
+    "pinball_mean": 5.2748969208583905,
+    "coverage_10_90_pct": 80.61725968154119,
+    "width_10_90": 40.06089260527345,
+    "coverage_25_75_pct": 49.42009042657755,
+    "width_25_75": 18.250587970984345
+   },
+   {
+    "model": "Gradient boosting with the AESO forecast as an input, raw quantiles",
+    "period": "all test",
+    "n": 13871,
+    "mae": 13.105599619209336,
+    "mape_pct": null,
+    "bias": -1.174468453423574,
+    "pinball_mean": 4.989471121148286,
+    "coverage_10_90_pct": 61.913344387571186,
+    "width_10_90": 33.041033801734436,
+    "coverage_25_75_pct": 36.39968279143537,
+    "width_25_75": 15.698672535116255
+   },
+   {
+    "model": "Gradient boosting with the AESO forecast as an input, raw quantiles",
+    "period": "2024",
+    "n": 8784,
+    "mae": 14.892794303048598,
+    "mape_pct": null,
+    "bias": -2.0046953157691263,
+    "pinball_mean": 5.644195261368002,
+    "coverage_10_90_pct": 60.245901639344254,
+    "width_10_90": 36.44964838348141,
+    "coverage_25_75_pct": 35.200364298724956,
+    "width_25_75": 17.54645517382171
+   },
+   {
+    "model": "Gradient boosting with the AESO forecast as an input, raw quantiles",
+    "period": "2025",
+    "n": 5087,
+    "mae": 10.019553206226425,
+    "mape_pct": null,
+    "bias": 0.2591294940588971,
+    "pinball_mean": 3.858923283977069,
+    "coverage_10_90_pct": 64.79260861018282,
+    "width_10_90": 27.15519332875125,
+    "coverage_25_75_pct": 38.47061136229605,
+    "width_25_75": 12.508005600107664
+   },
+   {
+    "model": "Gradient boosting with the AESO forecast as an input",
+    "period": "all test",
+    "n": 13871,
+    "mae": 13.105599619209336,
+    "mape_pct": null,
+    "bias": -1.174468453423574,
+    "pinball_mean": 4.9552434824817215,
+    "coverage_10_90_pct": 83.99538605724173,
+    "width_10_90": 39.28397365891237,
+    "coverage_25_75_pct": 52.22406459519861,
+    "width_25_75": 17.351772536621592
+   },
+   {
+    "model": "Gradient boosting with the AESO forecast as an input",
+    "period": "2024",
+    "n": 8784,
+    "mae": 14.892794303048598,
+    "mape_pct": null,
+    "bias": -2.0046953157691263,
+    "pinball_mean": 5.600855839649053,
+    "coverage_10_90_pct": 86.02003642987249,
+    "width_10_90": 44.88186421283868,
+    "coverage_25_75_pct": 53.620218579234965,
+    "width_25_75": 19.757182532859357
+   },
+   {
+    "model": "Gradient boosting with the AESO forecast as an input",
+    "period": "2025",
+    "n": 5087,
+    "mae": 10.019553206226425,
+    "mape_pct": null,
+    "bias": 0.2591294940588971,
+    "pinball_mean": 3.8404294574457793,
+    "coverage_10_90_pct": 80.49931197169255,
+    "width_10_90": 29.61779111012357,
+    "coverage_25_75_pct": 49.81324945940633,
+    "width_25_75": 13.198220068181943
+   }
+  ],
+  "headline": {
+   "mae_aeso": 15.958679258885445,
+   "mae_gbm_aeso": 13.105599619209336,
+   "mae_gbm_market": 18.09627573011087,
+   "mae_persist": 19.914660803114412,
+   "mae_cut_vs_aeso_pct": 17.877918300084737,
+   "pinball_aeso": 7.463570634777595,
+   "pinball_gbm_aeso": 4.9552434824817215,
+   "pinball_cut_vs_aeso_pct": 33.60760251410977,
+   "coverage_cal_pct": 83.99538605724173,
+   "coverage_raw_pct": 61.913344387571186,
+   "coverage_aeso_pct": 73.74378199120467
+  },
+  "spike": {
+   "threshold": 200.0,
+   "base_rate_train_pct": 9.297221248227377,
+   "rate_test_pct": 4.354408478119819,
+   "spike_hours_test": 604,
+   "brier_model": 0.013739498108126795,
+   "brier_climatology": 0.044123209792908354,
+   "brier_skill_pct": 68.86106388766156,
+   "brier_aeso_flag": 0.02458366375892149,
+   "reliability": [
+    {
+     "bin": "0.00-0.05",
+     "n": 12537,
+     "forecast": 0.002176211497462467,
+     "observed": 0.0021536252692031586
+    },
+    {
+     "bin": "0.05-0.10",
+     "n": 239,
+     "forecast": 0.0722689841959062,
+     "observed": 0.05439330543933055
+    },
+    {
+     "bin": "0.10-0.20",
+     "n": 218,
+     "forecast": 0.14526726698157144,
+     "observed": 0.11926605504587157
+    },
+    {
+     "bin": "0.20-0.30",
+     "n": 137,
+     "forecast": 0.24623102565711952,
+     "observed": 0.17518248175182483
+    },
+    {
+     "bin": "0.30-0.50",
+     "n": 164,
+     "forecast": 0.3930400094566662,
+     "observed": 0.34146341463414637
+    },
+    {
+     "bin": "0.50-0.70",
+     "n": 138,
+     "forecast": 0.6026060662316767,
+     "observed": 0.4782608695652174
+    },
+    {
+     "bin": "0.70-1.00",
+     "n": 438,
+     "forecast": 0.9104057086588324,
+     "observed": 0.8949771689497716
+    }
+   ],
+   "hit_rate_at_50pct": 75.82781456953643,
+   "false_alarm_at_50pct": 20.48611111111111,
+   "aeso_hit_rate": 79.63576158940397,
+   "aeso_false_alarm": 31.187410586552218
+  }
+ }
+}

@@ -1,0 +1,243 @@
+asset_id,asset_name,fuel_type,sub_fuel_type,maximum_capability_mw,source,group,max_hourly_mwh,first_output_utc,last_output_utc,capacity_mw
+AFG1,APF Athabasca (AFG1)*,BIOMASS,BIOMASS AND OTHER,131.0,"AESO Current Supply and Demand report, 25 October 2026",Other,52.061,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,131.0
+AKE1,McBride Lake Windfarm (AKE1)*,WIND,WIND,73.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,73.376,2010-01-01 12:00:00+00:00,2025-08-01 05:00:00+00:00,73.0
+ALP1,Bantry (ALP1),GAS,Simple Cycle,7.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,6.876,2010-01-19 18:00:00+00:00,2025-08-01 01:00:00+00:00,7.0
+ALP2,Parkland (ALP2),GAS,Simple Cycle,10.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,9.8715,2010-01-07 18:00:00+00:00,2025-08-01 01:00:00+00:00,10.0
+APS1,Scotford Upgrader (APS1),GAS,Cogeneration,195.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,103.98075,2010-01-06 14:00:00+00:00,2025-08-01 02:00:00+00:00,195.0
+BCR2,Bear Creek 2 (BCR2),GAS,Cogeneration,36.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,62.156,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,36.0
+BCRK,Bear Creek 1 (BCRK),GAS,Cogeneration,64.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,62.9028739,2010-01-03 02:00:00+00:00,2025-08-01 05:00:00+00:00,64.0
+BIG,Bighorn Hydro (BIG),HYDRO,HYDRO,120.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,120.49378,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,120.0
+BOW1,Bow River Hydro (BOW1),HYDRO,HYDRO,320.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,267.3368898,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,320.0
+BR3,BR3,COAL,COAL,,"Inferred: Battle River 3, coal unit",Thermal,155.0748273,2010-01-01 07:00:00+00:00,2019-12-14 13:00:00+00:00,155.0748273
+BR4,Battle River #4 (BR4),GAS,Gas Fired Steam,155.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,159.3726896,2010-01-01 07:00:00+00:00,2025-07-29 06:00:00+00:00,155.0
+BR5,Battle River #5 (BR5),GAS,Gas Fired Steam,395.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,391.7517206,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,395.0
+BRA,Brazeau Hydro (BRA),HYDRO,HYDRO,350.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,343.97487,2010-01-01 14:00:00+00:00,2025-08-01 05:00:00+00:00,350.0
+BTR1,Blue Trail Wind (BTR1)*,WIND,WIND,66.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,65.728,2010-01-01 11:00:00+00:00,2025-08-01 05:00:00+00:00,66.0
+CAL1,ENMAX Calgary Energy Centre (CAL1),GAS,Combined Cycle,330.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,335.6974,2010-01-01 12:00:00+00:00,2025-08-01 05:00:00+00:00,330.0
+CHIN,Chin Chute (CHIN),HYDRO,HYDRO,12.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,12.9081,2010-05-04 21:00:00+00:00,2025-08-01 05:00:00+00:00,12.0
+CMH1,Medicine Hat #1 (CMH1),GAS,Combined Cycle,299.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,181.3646,2010-01-02 01:00:00+00:00,2025-08-01 02:00:00+00:00,299.0
+CNR5,CNRL Horizon (CNR5)*,GAS,Cogeneration,203.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,102.416,2010-01-01 21:00:00+00:00,2024-06-12 14:00:00+00:00,203.0
+CR1,Castle River #1 (CR1)*,WIND,WIND,39.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,39.873358,2010-01-01 15:00:00+00:00,2025-07-31 21:00:00+00:00,39.0
+CRS1,Crossfield Energy Centre #1 (CRS1),GAS,Simple Cycle,48.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,45.0781473,2010-01-15 22:00:00+00:00,2025-07-03 04:00:00+00:00,48.0
+CRS2,Crossfield Energy Centre #2 (CRS2),GAS,Simple Cycle,48.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,44.8440752,2010-01-02 00:00:00+00:00,2025-07-17 23:00:00+00:00,48.0
+CRS3,Crossfield Energy Centre #3 (CRS3)^,GAS,SIMPLE_CYCLE,48.0,AESO CSD-Assets.xlsx,Thermal,46.1489768,2010-01-02 00:00:00+00:00,2025-08-01 03:00:00+00:00,48.0
+CRW1,CRW1,WIND,WIND,,"Inferred: output profile: variable day and night, capacity factor 15 percent",Wind,39.8569,2010-01-01 13:00:00+00:00,2025-08-01 03:00:00+00:00,39.8569
+DAI1,DAI1 Daishowa (DAI1)*,BIOMASS,BIOMASS AND OTHER,69.0,"AESO Current Supply and Demand report, 25 October 2026",Other,32.522,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,69.0
+DKSN,Dickson Dam (DKSN),HYDRO,HYDRO,15.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,15.4205,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,15.0
+DOWG,Dow Hydrocarbon (DOWG),GAS,Cogeneration,326.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,217.45255,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,326.0
+DRW1,Drywood (DRW1),GAS,Simple Cycle,6.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.5005,2010-01-19 19:00:00+00:00,2022-12-07 01:00:00+00:00,6.0
+DV1,DV1,BIOMASS,BIOMASS,,"Inferred: steady baseload profile, about 11 MW",Other,10.8324,2010-01-01 07:00:00+00:00,2016-05-25 05:00:00+00:00,10.8324
+EAGL,Whitecourt Power (EAGL),BIOMASS,BIOMASS AND OTHER,25.0,"AESO Current Supply and Demand report, 25 October 2026",Other,28.480325,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,25.0
+EC01,Cavalier (EC01),GAS,Combined Cycle,120.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,117.402,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,120.0
+EC04,Foster Creek (EC04),GAS,Cogeneration,98.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,60.576,2010-01-01 07:00:00+00:00,2025-06-17 13:00:00+00:00,98.0
+ENC1,Cloverbar #1 (ENC1),GAS,Simple Cycle,48.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,49.1204327,2010-01-03 23:00:00+00:00,2025-08-01 05:00:00+00:00,48.0
+ENC2,Cloverbar #2 (ENC2),GAS,Simple Cycle,101.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,187.110389,2010-01-02 00:00:00+00:00,2025-05-25 00:00:00+00:00,101.0
+ENC3,Cloverbar #3 (ENC3),GAS,Simple Cycle,101.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,198.5659137,2010-01-02 00:00:00+00:00,2025-08-01 05:00:00+00:00,101.0
+FNG1,Fort Nelson (FNG1),GAS,Combined Cycle,73.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,55.5233362,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,73.0
+GN1,Genesee #1 (GN1),COAL,COAL,400.0,AESO CSD-Assets.xlsx,Thermal,427.0342503,2010-01-01 07:00:00+00:00,2024-04-08 04:00:00+00:00,400.0
+GN2,Genesee #2 (GN2),COAL,COAL,420.0,AESO CSD-Assets.xlsx,Thermal,426.263587,2010-01-01 07:00:00+00:00,2024-06-17 04:00:00+00:00,420.0
+GN3,Genesee #3 (GN3),GAS,Gas Fired Steam,466.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,480.6,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+GOC1,Gold Creek Facility (GOC1),BIOMASS,BIOMASS AND OTHER,5.0,"AESO Current Supply and Demand report, 25 October 2026",Other,4.6224,2010-01-01 07:00:00+00:00,2012-10-07 19:00:00+00:00,5.0
+GPEC,Grande Prairie EcoPower (GPEC),BIOMASS,BIOMASS AND OTHER,18.0,"AESO Current Supply and Demand report, 25 October 2026",Other,18.166,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,18.0
+GWW1,Soderglen Wind (GWW1)*,WIND,WIND,71.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,71.284,2010-01-01 12:00:00+00:00,2025-08-01 05:00:00+00:00,71.0
+HRM,H.R. Milner (HRM),GAS,Combined Cycle,300.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,300.7824,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,300.0
+ICP1,Irrican Hydro (ICP1),HYDRO,HYDRO,7.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,6.9006,2010-05-03 19:00:00+00:00,2025-08-01 05:00:00+00:00,7.0
+IEW1,Summerview 1 (IEW1)*,WIND,WIND,66.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,70.945,2010-01-01 12:00:00+00:00,2025-08-01 05:00:00+00:00,66.0
+IOR1,Mahkeses (IOR1),GAS,Cogeneration,180.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,228.888208,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,180.0
+JOF1,Joffre #1 (JOF1),GAS,Cogeneration,474.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,342.03077,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,474.0
+KH1,KH1,COAL,COAL,,"Inferred: Keephills 1, coal unit",Thermal,408.4652,2010-01-01 07:00:00+00:00,2022-01-01 06:00:00+00:00,408.4652
+KH2,Keephills #2 (KH2),GAS,Gas Fired Steam,395.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,409.9267,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,395.0
+KHW1,Kettles Hill (KHW1)*,WIND,WIND,63.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,61.6686005,2010-01-01 12:00:00+00:00,2025-08-01 04:00:00+00:00,63.0
+ME02,Lethbridge Taber (ME02),GAS,Simple Cycle,8.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,9.9355,2010-01-12 22:00:00+00:00,2025-08-01 05:00:00+00:00,8.0
+ME03,Lethbridge Burdett (ME03),GAS,Simple Cycle,7.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,7.2741,2010-01-10 00:00:00+00:00,2025-08-01 05:00:00+00:00,7.0
+ME04,Lethbridge Coaldale (ME04),GAS,Simple Cycle,6.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,6.237,2010-01-07 21:00:00+00:00,2025-07-31 23:00:00+00:00,6.0
+MEG1,MEG1 Christina Lake (MEG1),GAS,Cogeneration,202.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,170.6866,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,202.0
+MKR1,Muskeg River (MKR1),GAS,Cogeneration,202.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,152.896,2010-01-01 07:00:00+00:00,2025-07-30 13:00:00+00:00,202.0
+MKRC,MacKay River (MKRC),GAS,Cogeneration,207.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,191.568,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,207.0
+NPC1,NPC1,GAS,GAS,,Inferred: same site as the NPC2 and NPC3 gas units; daytime peaking profile,Thermal,19.61568,2010-01-04 16:00:00+00:00,2025-08-01 01:00:00+00:00,19.61568
+NPP1,Northern Prairie Power Project (NPP1),GAS,Simple Cycle,105.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,103.53,2010-02-03 17:00:00+00:00,2025-08-01 03:00:00+00:00,105.0
+NX01,Nexen Inc #1 (NX01),GAS,Combined Cycle,120.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,119.4561,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,120.0
+NX02,Nexen Inc #2 (NX02),GAS,Cogeneration,220.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,158.844,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,220.0
+OMRH,Oldman River (OMRH),HYDRO,HYDRO,32.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,35.0720386,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,32.0
+PH1,Poplar Hill #1 (PH1),GAS,Simple Cycle,48.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,43.9992,2010-01-03 14:00:00+00:00,2025-08-01 01:00:00+00:00,48.0
+PR1,Primrose #1 (PR1),GAS,Cogeneration,100.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,52.8482271,2010-01-01 07:00:00+00:00,2025-03-12 17:00:00+00:00,100.0
+PW01,PW01,BIOMASS,BIOMASS,,"Inferred: steady profile, about 6 MW",Other,5.5724,2010-01-01 07:00:00+00:00,2020-05-06 17:00:00+00:00,5.5724
+RB1,RB1,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+RB2,RB2,GAS,GAS,,Inferred: Rainbow gas unit,Thermal,38.3988,2010-01-07 16:00:00+00:00,2012-10-31 19:00:00+00:00,38.3988
+RB3,RB3,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+RB5,Rainbow #5 (RB5),GAS,Simple Cycle,50.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,81.2574,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,50.0
+RG10,RG10,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+RG8,RG8,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+RG9,RG9,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+RL1,Rainbow Lake #1 (RL1),GAS,Cogeneration,47.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,46.8286,2010-01-01 07:00:00+00:00,2016-12-01 06:00:00+00:00,47.0
+RYMD,Raymond Reservoir (RYMD),HYDRO,HYDRO,21.0,AESO CSD-Assets.xlsx,Hydro,25.524,2010-05-05 19:00:00+00:00,2025-08-01 05:00:00+00:00,21.0
+SCL1,Syncrude #1 (SCL1),GAS,Cogeneration,510.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,160.32,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,510.0
+SCR1,Base Plant (SCR1),GAS,Cogeneration,856.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,1138.5979,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,856.0
+SCR2,Suncor Magrath (SCR2)*,WIND,WIND,30.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,30.256,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,30.0
+SCR3,Suncor Chin Chute (SCR3)*,WIND,WIND,30.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,30.8857,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,30.0
+SD1,SD1,COAL,COAL,,"Inferred: Sundance 1, coal unit",Thermal,291.28067,2010-01-01 07:00:00+00:00,2017-12-31 23:00:00+00:00,291.28067
+SD2,SD2,COAL,COAL,,"Inferred: Sundance 2, coal unit",Thermal,290.6702,2010-01-01 07:00:00+00:00,2018-01-01 02:00:00+00:00,290.6702
+SD3,SD3,COAL,COAL,,"Inferred: Sundance 3, coal unit",Thermal,374.78067,2010-01-01 07:00:00+00:00,2018-03-31 21:00:00+00:00,374.78067
+SD4,SD4,COAL,COAL,,"Inferred: Sundance 4, coal unit",Thermal,411.1208,2010-01-01 07:00:00+00:00,2022-02-04 04:00:00+00:00,411.1208
+SD5,SD5,COAL,COAL,,"Inferred: Sundance 5, coal unit",Thermal,420.9563,2010-01-01 07:00:00+00:00,2018-04-01 01:00:00+00:00,420.9563
+SD6,Sundance #6 (SD6),GAS,Gas Fired Steam,401.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,408.433,2010-01-01 07:00:00+00:00,2025-02-19 08:00:00+00:00,401.0
+SH1,Sheerness #1 (SH1),GAS,Gas Fired Steam,400.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,403.7320296,2010-01-01 07:00:00+00:00,2025-06-05 05:00:00+00:00,400.0
+SH2,Sheerness #2 (SH2),GAS,Gas Fired Steam,400.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,402.3230563,2010-01-01 07:00:00+00:00,2025-07-16 07:00:00+00:00,400.0
+SHCG,Caroline (SHCG)*,GAS,Cogeneration,19.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,10.2972,2010-01-01 17:00:00+00:00,2024-10-15 19:00:00+00:00,19.0
+ST1,ST1,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+ST2,ST2,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+TAB1,Enmax Taber (TAB1)*,WIND,WIND,81.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,81.7056253,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,81.0
+TAY1,Taylor Hydro (TAY1),HYDRO,HYDRO,14.0,"AESO Current Supply and Demand report, 25 October 2026",Hydro,13.624,2010-05-13 21:00:00+00:00,2025-08-01 05:00:00+00:00,14.0
+TAY2,TAY2,WIND,WIND,,"Inferred: output profile: variable day and night, 3 MW",Wind,3.235,2010-01-01 07:00:00+00:00,2011-06-30 15:00:00+00:00,3.235
+TC01,Carseland Cogen (TC01),GAS,Cogeneration,95.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,90.112,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,95.0
+TC02,Redwater Cogen (TC02),GAS,Cogeneration,92.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,68.903,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,92.0
+TLM2,Edson (TLM2),GAS,Cogeneration,13.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,12.024,2010-01-01 07:00:00+00:00,2025-08-01 05:00:00+00:00,13.0
+UOA1,University of Alberta (UOA1)*,GAS,Cogeneration,39.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,12.196799,2010-01-23 01:00:00+00:00,2019-05-02 10:00:00+00:00,39.0
+VVW1,Valley View 1 (VVW1),GAS,Simple Cycle,50.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,48.328,2010-01-01 07:00:00+00:00,2025-07-31 02:00:00+00:00,50.0
+VVW2,Valley View 2 (VVW2),GAS,Simple Cycle,50.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,48.944,2010-01-05 16:00:00+00:00,2025-07-31 02:00:00+00:00,50.0
+WB4,WB4,COAL,COAL,,"Inferred: Wabamun 4, coal unit",Thermal,254.32848,2010-01-01 07:00:00+00:00,2010-04-01 03:00:00+00:00,254.32848
+WEY1,Weyerhaeuser (WEY1),BIOMASS,BIOMASS AND OTHER,48.0,"AESO Current Supply and Demand report, 25 October 2026",Other,18.4833316,2010-02-03 03:00:00+00:00,2025-08-01 05:00:00+00:00,48.0
+WST1,Westlock (WST1)*,BIOMASS,BIOMASS AND OTHER,18.0,"AESO Current Supply and Demand report, 25 October 2026",Other,18.166,2010-01-02 06:00:00+00:00,2025-08-01 05:00:00+00:00,18.0
+WWD1,Weldwood #1 (WWD1)*,BIOMASS,BIOMASS AND OTHER,50.0,"AESO Current Supply and Demand report, 25 October 2026",Other,8.7264,2010-01-08 01:00:00+00:00,2025-07-31 11:00:00+00:00,50.0
+WWD2,WWD2,UNKNOWN,UNKNOWN,,No output and no listing,Other,0.0,,,0.0
+IEW2,Summerview 2 (IEW2)*,WIND,WIND,66.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,65.7235,2010-02-20 03:00:00+00:00,2025-08-01 05:00:00+00:00,66.0
+HMT1,AltaGas Harmattan (HMT1),GAS,Cogeneration,45.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,25.9585,2010-12-17 17:00:00+00:00,2025-08-01 05:00:00+00:00,45.0
+ARD1,Ardenville Wind (ARD1)*,WIND,WIND,68.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,68.8113,2010-11-06 12:00:00+00:00,2025-08-01 05:00:00+00:00,68.0
+NEP1,Ghost Pine (NEP1)*,WIND,WIND,82.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,80.864,2011-01-01 20:00:00+00:00,2025-08-01 05:00:00+00:00,82.0
+KH3,Keephills #3 (KH3),GAS,Gas Fired Steam,466.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,469.76,2011-05-30 16:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+UOC1,U of C Generator (UOC1)*,GAS,Cogeneration,12.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,12.545248,2011-08-23 17:00:00+00:00,2025-08-01 05:00:00+00:00,12.0
+SCR4,Wintering Hills (SCR4)*,WIND,WIND,88.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,87.3255,2011-10-20 00:00:00+00:00,2025-08-01 05:00:00+00:00,88.0
+CRR1,Castle Rock Wind Farm (CRR1)*,WIND,WIND,77.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,86.6224,2012-05-29 19:00:00+00:00,2025-08-01 04:00:00+00:00,77.0
+GEN6,Judy Creek (GEN6),GAS,Simple Cycle,15.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,12.02016,2014-05-23 21:00:00+00:00,2025-07-24 05:00:00+00:00,15.0
+HAL1,Halkirk Wind Power Facility (HAL1)*,WIND,WIND,150.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,147.728,2012-11-01 15:00:00+00:00,2025-08-01 05:00:00+00:00,150.0
+NRG3,NRGreen (NRG3),BIOMASS,BIOMASS AND OTHER,16.0,"AESO Current Supply and Demand report, 25 October 2026",Other,13.28,2014-06-12 21:00:00+00:00,2025-07-28 07:00:00+00:00,16.0
+ANC1,AB Newsprint (ANC1),GAS,Simple Cycle,63.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,59.77926,2014-05-06 21:00:00+00:00,2025-08-01 02:00:00+00:00,63.0
+GEN5,Carson Creek (GEN5),GAS,Simple Cycle,15.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,14.9671,2014-03-08 17:00:00+00:00,2025-08-01 00:00:00+00:00,15.0
+BSR1,Blackspring Ridge (BSR1)*,WIND,WIND,300.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,297.928,2014-04-07 21:00:00+00:00,2025-08-01 05:00:00+00:00,300.0
+EGC1,Shepard (EGC1),GAS,Combined Cycle,868.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,863.6648987,2014-09-04 21:00:00+00:00,2025-08-01 05:00:00+00:00,868.0
+OWF1,Oldman 2 Wind Farm 1 (OWF1)*,WIND,WIND,46.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,47.5725,2014-07-10 23:00:00+00:00,2025-07-28 02:00:00+00:00,46.0
+PEC1,Lindbergh (PEC1)*,GAS,Cogeneration,23.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.562,2014-12-17 15:00:00+00:00,2025-08-01 05:00:00+00:00,23.0
+WCD1,West Cadotte (WCD1),GAS,Simple Cycle,20.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,19.84896,2015-02-14 20:00:00+00:00,2025-08-01 05:00:00+00:00,20.0
+CRG1,Camrose (CRG1)*,GAS,Cogeneration,10.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.7144,2016-05-01 19:00:00+00:00,2025-08-01 05:00:00+00:00,10.0
+HSM1,HSM1,BIOMASS,BIOMASS,,"Inferred: steady profile, about 6 MW",Other,5.96916,2015-04-08 23:00:00+00:00,2025-05-26 15:00:00+00:00,5.96916
+MFG1,MFG1,BIOMASS,BIOMASS,,"Inferred: about 14 MW, 2015 to 2016 only",Other,13.453,2015-05-14 21:00:00+00:00,2016-12-30 18:00:00+00:00,13.453
+NAT1,Ralston (NAT1),GAS,Simple Cycle,20.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,19.872,2015-09-30 20:00:00+00:00,2025-07-31 23:00:00+00:00,20.0
+BUL1,BUL1 Bull Creek (BUL1)*,WIND,WIND,13.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,13.776,2015-12-16 15:00:00+00:00,2025-08-01 05:00:00+00:00,13.0
+BUL2,BUL2 Bull Creek (BUL2)*,WIND,WIND,16.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,15.472,2015-12-05 21:00:00+00:00,2025-08-01 05:00:00+00:00,16.0
+SDH1,Saddle Hills (SDH1),GAS,Simple Cycle,10.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,10.77,2016-03-14 06:00:00+00:00,2025-08-01 00:00:00+00:00,10.0
+SLP1,Slave Lake (SLP1)*,BIOMASS,BIOMASS AND OTHER,9.0,"AESO Current Supply and Demand report, 25 October 2026",Other,5.271,2016-06-29 20:00:00+00:00,2025-07-31 23:00:00+00:00,9.0
+BON1,Bonnybrook (BON1)*,BIOMASS,BIOMASS AND OTHER,10.0,"AESO Current Supply and Demand report, 25 October 2026",Other,0.0633645,,,10.0
+CL01,Christina Lake (CL01),GAS,Cogeneration,100.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,63.416,2016-06-24 17:00:00+00:00,2025-06-12 04:00:00+00:00,100.0
+FH1,Fort Hills (FH1),GAS,Cogeneration,199.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,150.3822,2017-10-20 18:00:00+00:00,2025-08-01 05:00:00+00:00,199.0
+BSC1,Brooks Solar (BSC1),SOLAR,SOLAR,15.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,15.0265,2017-12-14 19:00:00+00:00,2025-08-01 02:00:00+00:00,15.0
+MUL1,Mulligan (MUL1)*,GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.3192,2018-11-01 06:00:00+00:00,2025-08-01 00:00:00+00:00,5.0
+BHL1,Bellshill (BHL1),GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.212,2020-02-04 21:00:00+00:00,2025-05-28 23:00:00+00:00,5.0
+BFD1,Blackfalds (BFD1),GAS,Cogeneration,6.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.52,2019-07-05 18:00:00+00:00,2025-07-31 23:00:00+00:00,6.0
+WHT1,Whitla 1 (WHT1)*,WIND,WIND,202.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,197.4,2019-09-13 14:00:00+00:00,2025-08-01 05:00:00+00:00,202.0
+CRR2,Castle Rock Ridge 2 (CRR2)*,WIND,WIND,29.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,28.9371931,2019-12-30 23:00:00+00:00,2025-08-01 02:00:00+00:00,29.0
+RIV1,Riverview (RIV1)*,WIND,WIND,105.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,102.488,2020-04-07 20:00:00+00:00,2025-08-01 04:00:00+00:00,105.0
+COD1,COD1 Coaldale (COD1),GAS,Cogeneration,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.92,2019-11-08 23:00:00+00:00,2025-08-01 05:00:00+00:00,5.0
+VXH1,Vauxhall (VXH1),SOLAR,SOLAR,22.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,21.9715,2020-04-17 16:00:00+00:00,2025-08-01 02:00:00+00:00,22.0
+HUL1,Hull (HUL1),SOLAR,SOLAR,25.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,24.4804,2020-06-25 22:00:00+00:00,2025-07-31 23:00:00+00:00,25.0
+INF1,Innisfail (INF1),SOLAR,SOLAR,22.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,21.996,2020-06-16 21:00:00+00:00,2025-08-01 02:00:00+00:00,22.0
+PMB1,West Pembina (PMB1)*,GAS,Simple Cycle,13.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,0.1828338,2020-12-01 17:00:00+00:00,2021-09-15 23:00:00+00:00,13.0
+SUM1,Summerview (SUM1),ENERGY STORAGE,ENERGY STORAGE,10.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,9.9686867,2020-11-21 21:00:00+00:00,2025-07-29 20:00:00+00:00,10.0
+IOR4,Strathcona (IOR4)*,GAS,Cogeneration,50.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.0259194,2024-03-14 22:00:00+00:00,2024-03-14 22:00:00+00:00,50.0
+SUF1,Suffield (SUF1),SOLAR,SOLAR,23.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,24.457,2020-09-08 22:00:00+00:00,2025-08-01 02:00:00+00:00,23.0
+ERV1,eReserve1 Rycroft (ERV1),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,17.5968,2020-12-16 04:00:00+00:00,2025-07-29 19:00:00+00:00,20.0
+CLR1,Claresholm 1 (CLR1),SOLAR,SOLAR,58.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,57.7072615,2021-02-02 22:00:00+00:00,2025-08-01 02:00:00+00:00,58.0
+CLR2,Claresholm 2 (CLR2),SOLAR,SOLAR,75.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,74.1979053,2021-03-27 19:00:00+00:00,2025-08-01 02:00:00+00:00,75.0
+BRD1,BRD1 Burdett (BRD1),SOLAR,SOLAR,11.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,10.3872,2021-02-26 20:00:00+00:00,2025-08-01 02:00:00+00:00,11.0
+BUR1,BUR1 Burdett (BUR1),SOLAR,SOLAR,20.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,21.7082,2021-03-13 17:00:00+00:00,2025-08-01 02:00:00+00:00,20.0
+SET1,South Edmonton Terminal (SET1),GAS,Simple Cycle,20.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,19.908195,2021-03-22 23:00:00+00:00,2025-08-01 02:00:00+00:00,20.0
+WEF1,Westfield Yellow Lake (WEF1),SOLAR,SOLAR,19.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,21.264,2021-03-31 14:00:00+00:00,2025-08-01 02:00:00+00:00,19.0
+WRW1,Windrise (WRW1)*,WIND,WIND,207.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,202.976,2021-07-13 01:00:00+00:00,2025-08-01 04:00:00+00:00,207.0
+HYS1,Hays (HYS1),SOLAR,SOLAR,23.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,23.008,2021-08-10 17:00:00+00:00,2025-08-01 02:00:00+00:00,23.0
+JER1,Jenner (JER1),SOLAR,SOLAR,23.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,22.982,2021-08-10 22:00:00+00:00,2025-08-01 02:00:00+00:00,23.0
+WHT2,Whitla 2 (WHT2)*,WIND,WIND,151.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,148.288,2021-09-30 17:00:00+00:00,2025-08-01 05:00:00+00:00,151.0
+ERV2,eReserve2 Buffalo Creek (ERV2),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,12.4873,2021-10-08 02:00:00+00:00,2025-07-29 19:00:00+00:00,20.0
+HRT1,Heartland Petrochemical (HRT1),GAS,Cogeneration,108.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,103.8116,2021-12-05 19:00:00+00:00,2025-08-01 05:00:00+00:00,108.0
+RTL1,Rattlesnake Ridge Wind (RTL1)*,WIND,WIND,130.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,124.864,2021-12-09 16:00:00+00:00,2025-08-01 05:00:00+00:00,130.0
+TVS1,Travers (TVS1),SOLAR,SOLAR,465.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,464.544,2022-03-15 15:00:00+00:00,2025-08-01 03:00:00+00:00,465.0
+NPC3,NPC3 Elmworth (NPC3),GAS,Simple Cycle,9.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,9.5184,2022-02-14 15:00:00+00:00,2025-08-01 01:00:00+00:00,9.0
+STR1,Strathmore 1 (STR1),SOLAR,SOLAR,18.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,18.832,2022-02-23 20:00:00+00:00,2025-08-01 02:00:00+00:00,18.0
+STR2,Strathmore 2 (STR2),SOLAR,SOLAR,23.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,24.02,2022-03-08 00:00:00+00:00,2025-08-01 02:00:00+00:00,23.0
+BRK1,Brooks Solar 1 (BRK1),SOLAR,SOLAR,13.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,13.6296,2022-03-25 20:00:00+00:00,2025-08-01 02:00:00+00:00,13.0
+BRK2,Brooks Solar 2 (BRK2),SOLAR,SOLAR,14.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,14.1408,2022-03-30 22:00:00+00:00,2025-08-01 02:00:00+00:00,14.0
+COL1,COL1 Coaldale (COL1),SOLAR,SOLAR,23.0,AESO CSD-Assets.xlsx,Solar,23.2168,2022-05-10 20:00:00+00:00,2025-08-01 02:00:00+00:00,23.0
+NMK1,East Strathmore Namaka (NMK1),SOLAR,SOLAR,20.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,20.3184,2022-05-28 15:00:00+00:00,2025-08-01 02:00:00+00:00,20.0
+MON1,Monarch (MON1),SOLAR,SOLAR,24.0,AESO CSD-Assets.xlsx,Solar,23.24,2022-06-16 16:00:00+00:00,2025-07-27 16:00:00+00:00,24.0
+CRD1,Conrad 1 (CRD1),SOLAR,SOLAR,23.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,23.001,2022-07-27 16:00:00+00:00,2025-08-01 02:00:00+00:00,23.0
+CRD2,Conrad 2 (CRD2),SOLAR,SOLAR,18.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,17.984,2022-07-19 15:00:00+00:00,2025-08-01 02:00:00+00:00,18.0
+WHE1,Wheatland Wind (WHE1)*,WIND,WIND,120.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,120.1663,2022-09-15 20:00:00+00:00,2025-08-01 05:00:00+00:00,120.0
+KKP1,kisikaw-pisim 1 (KKP1)*,SOLAR,SOLAR,7.0,AESO CSD-Assets.xlsx,Solar,4.95992,2022-08-12 14:00:00+00:00,2025-07-31 22:00:00+00:00,7.0
+KKP2,kisikaw-pisim 2 (KKP2)*,SOLAR,SOLAR,7.0,AESO CSD-Assets.xlsx,Solar,5.14416,2022-09-14 19:00:00+00:00,2025-07-31 23:00:00+00:00,7.0
+FMG1,Forty Mile Granlea (FMG1)*,WIND,WIND,220.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,218.4,2022-08-26 18:00:00+00:00,2025-08-01 05:00:00+00:00,220.0
+ERV3,eReserve3 Mercer Hill (ERV3),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,12.7368,2022-09-02 14:00:00+00:00,2025-07-31 23:00:00+00:00,20.0
+SRL1,Swan Hills Geothermal (SRL1),BIOMASS,BIOMASS AND OTHER,20.0,"AESO Current Supply and Demand report, 25 October 2026",Other,15.432,2022-09-08 20:00:00+00:00,2025-08-01 03:00:00+00:00,20.0
+EPS1,Empress (EPS1)*,GAS,Cogeneration,46.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,12.562,2022-11-28 08:00:00+00:00,2025-05-31 22:00:00+00:00,46.0
+VCN1,Vulcan (VCN1),SOLAR,SOLAR,22.0,AESO CSD-Assets.xlsx,Solar,22.046,2022-09-28 20:00:00+00:00,2025-08-01 02:00:00+00:00,22.0
+HHW1,Hand Hills (HHW1)*,WIND,WIND,145.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,145.5995,2022-12-30 00:00:00+00:00,2025-08-01 05:00:00+00:00,145.0
+CLY1,Clydesdale 1 (CLY1),SOLAR,SOLAR,41.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,46.6108,2022-11-03 18:00:00+00:00,2025-08-01 02:00:00+00:00,41.0
+CLY2,Clydesdale 2 (CLY2),SOLAR,SOLAR,34.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,34.112606,2022-11-21 20:00:00+00:00,2025-08-01 02:00:00+00:00,34.0
+CYP2,Cypress 2 (CYP2)*,WIND,WIND,46.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,45.944,2022-11-23 21:00:00+00:00,2025-08-01 05:00:00+00:00,46.0
+HRV1,High River 1 (HRV1),GAS,Simple Cycle,10.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,9.8004,2022-11-18 23:00:00+00:00,2025-08-01 01:00:00+00:00,10.0
+MIC1,Michichi Solar (MIC1),SOLAR,SOLAR,25.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,25.0452,2022-12-15 21:00:00+00:00,2025-08-01 02:00:00+00:00,25.0
+TRH1,Kneehill Solar (TRH1),SOLAR,SOLAR,25.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,25.9704,2022-12-21 17:00:00+00:00,2025-08-01 02:00:00+00:00,25.0
+HLD1,Hilda Wind (HLD1)*,WIND,WIND,100.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,100.6652,2022-12-17 23:00:00+00:00,2025-08-01 05:00:00+00:00,100.0
+CYP1,Cypress 1 (CYP1)*,WIND,WIND,196.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,196.168,2023-01-22 21:00:00+00:00,2025-08-01 05:00:00+00:00,196.0
+LAN1,Lanfine Wind (LAN1)*,WIND,WIND,151.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,148.304,2022-11-21 22:00:00+00:00,2025-08-01 05:00:00+00:00,151.0
+JNR3,Jenner 3 (JNR3)*,WIND,WIND,109.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,105.2673,2023-01-04 21:00:00+00:00,2025-08-01 05:00:00+00:00,109.0
+GDP1,Garden Plain (GDP1)*,WIND,WIND,130.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,127.0315,2023-01-21 23:00:00+00:00,2025-08-01 05:00:00+00:00,130.0
+GRZ1,Grizzly Bear (GRZ1)*,WIND,WIND,152.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,149.0753,2022-12-24 20:00:00+00:00,2025-08-01 05:00:00+00:00,152.0
+BLS1,Barlow Solar (BLS1),SOLAR,SOLAR,31.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,30.8763131,2022-12-31 18:00:00+00:00,2025-08-01 02:00:00+00:00,31.0
+ERV5,eReserve5 Hughenden (ERV5),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,20.0148,2023-04-03 17:00:00+00:00,2025-07-31 23:00:00+00:00,20.0
+CHP1,CHP1,SOLAR,SOLAR,,Inferred: output profile: near zero at night,Solar,13.9872,2023-04-26 20:00:00+00:00,2025-08-01 03:00:00+00:00,13.9872
+MCH1,MCH1,SOLAR,SOLAR,,Inferred: output profile: near zero at night,Solar,14.2632,2023-08-03 22:00:00+00:00,2025-08-01 03:00:00+00:00,14.2632
+STV1,Stavely (STV1),SOLAR,SOLAR,17.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,17.7352,2023-07-19 20:00:00+00:00,2025-08-01 02:00:00+00:00,17.0
+EMP1,Empress Solar Park (EMP1),SOLAR,SOLAR,39.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,38.273,2023-08-14 22:00:00+00:00,2025-08-01 02:00:00+00:00,39.0
+HRV2,High River 2 (HRV2),GAS,Simple Cycle,10.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,10.4237,2023-07-07 21:00:00+00:00,2025-08-01 01:00:00+00:00,10.0
+SWP1,Stirling Wind (SWP1)*,WIND,WIND,113.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,113.392,2023-08-03 04:00:00+00:00,2025-08-01 05:00:00+00:00,113.0
+DFT1,Deerfoot (DFT1),SOLAR,SOLAR,41.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,40.8635614,2023-07-20 21:00:00+00:00,2025-08-01 02:00:00+00:00,41.0
+YNG1,Youngstown Solar (YNG1),SOLAR,SOLAR,6.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,6.0312,2023-08-25 23:00:00+00:00,2025-08-01 02:00:00+00:00,6.0
+WLC1,Wilson Creek (WLC1),GAS,Simple Cycle,9.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,8.0511,2023-08-21 21:00:00+00:00,2025-07-31 04:00:00+00:00,9.0
+JNR1,Jenner 1 (JNR1)*,WIND,WIND,122.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,120.7694,2023-07-14 21:00:00+00:00,2025-08-01 05:00:00+00:00,122.0
+CAS1,Cascade 1 (CAS1),GAS,Combined Cycle,466.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,458.624,2024-02-13 22:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+CAS2,Cascade 2 (CAS2),GAS,Combined Cycle,466.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,459.648,2024-04-08 21:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+ERV4,eReserve4 (ERV4),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,19.3311,2023-08-25 20:00:00+00:00,2025-07-29 19:00:00+00:00,20.0
+ERV6,eReserve6 (ERV6),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,17.0451,2023-09-13 04:00:00+00:00,2025-07-31 23:00:00+00:00,20.0
+SHH1,Sharp Hill Wind (SHH1)*,WIND,WIND,297.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,290.08,2023-10-31 14:00:00+00:00,2025-08-01 05:00:00+00:00,297.0
+JFS1,Joffre Solar 1 (JFS1),SOLAR,SOLAR,25.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,25.6167,2023-12-12 21:00:00+00:00,2025-08-01 02:00:00+00:00,25.0
+JFS2,Joffre Solar 2 (JFS2),SOLAR,SOLAR,22.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,22.7912,2023-12-09 16:00:00+00:00,2025-08-01 02:00:00+00:00,22.0
+PAW1,Paintearth Wind Project (PAW1)*,WIND,WIND,198.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,189.248,2023-12-09 00:00:00+00:00,2025-08-01 05:00:00+00:00,198.0
+SDL1,Saddlebrook Solar (SDL1),SOLAR,SOLAR,81.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,83.1116,2023-11-17 15:00:00+00:00,2025-08-01 02:00:00+00:00,81.0
+WCR1,Wheatcrest (WCR1),SOLAR,SOLAR,50.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,49.806,2023-11-21 20:00:00+00:00,2025-08-01 02:00:00+00:00,50.0
+BFL1,Buffalo Atlee 1 (BFL1)*,WIND,WIND,18.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,17.036,2023-12-02 21:00:00+00:00,2025-08-01 05:00:00+00:00,18.0
+BFL2,Buffalo Atlee 2 (BFL2)*,WIND,WIND,16.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,15.532,2023-12-05 19:00:00+00:00,2025-08-01 05:00:00+00:00,16.0
+BFL3,Buffalo Atlee 3 (BFL3)*,WIND,WIND,18.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,17.052,2023-12-05 16:00:00+00:00,2025-08-01 05:00:00+00:00,18.0
+BFL4,Buffalo Atlee 4 (BFL4)*,WIND,WIND,11.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,10.316,2023-12-08 22:00:00+00:00,2025-08-01 05:00:00+00:00,11.0
+JNR2,Jenner 2 (JNR2)*,WIND,WIND,71.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,70.7541,2023-11-04 07:00:00+00:00,2025-08-01 05:00:00+00:00,71.0
+ERV7,eReserve7 (ERV7),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,19.1376,2023-12-16 16:00:00+00:00,2025-07-29 19:00:00+00:00,20.0
+ERV8,eReserve8 (ERV8),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,19.104,2023-12-15 21:00:00+00:00,2025-07-30 22:00:00+00:00,20.0
+FCS1,Fox Coulee Solar (FCS1),SOLAR,SOLAR,80.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,74.8152,2023-12-07 20:00:00+00:00,2025-08-01 02:00:00+00:00,80.0
+SGC1,Spring Coulee (SGC1),SOLAR,SOLAR,30.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,29.5414,2023-12-13 20:00:00+00:00,2025-08-01 02:00:00+00:00,30.0
+WEM1,Wembley (WEM1)*,GAS,Cogeneration,19.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,5.7312,2023-12-10 17:00:00+00:00,2025-07-22 16:00:00+00:00,19.0
+ERV9,eReserve9 (ERV9),ENERGY STORAGE,ENERGY STORAGE,20.0,"AESO Current Supply and Demand report, 25 October 2026",Storage,16.3512,2023-12-18 21:00:00+00:00,2025-07-31 02:00:00+00:00,20.0
+SLR1,Sollair Solar Energy Plant (SLR1),SOLAR,SOLAR,75.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,80.76,2023-12-30 17:00:00+00:00,2025-08-01 02:00:00+00:00,75.0
+GNR1,Genesee Repower 1 (GNR1),GAS,Combined Cycle,466.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,669.536,2024-03-31 01:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+GNR2,Genesee Repower 2 (GNR2),GAS,Combined Cycle,466.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,675.384,2024-06-11 01:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+FRM1,Forty Mile Bow Island (FRM1)*,WIND,WIND,266.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,261.552,2024-10-23 16:00:00+00:00,2025-08-01 05:00:00+00:00,266.0
+VBN1,Benalto 1 (VBN1)*,GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.8436,2024-07-15 18:00:00+00:00,2025-08-01 00:00:00+00:00,5.0
+VNT1,Netook 1 (VNT1)*,GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.8995,2024-08-15 19:00:00+00:00,2025-07-31 23:00:00+00:00,5.0
+BPW1,Buffalo Plains (BPW1)*,WIND,WIND,466.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,349.664,2024-08-29 13:00:00+00:00,2025-08-01 05:00:00+00:00,466.0
+HAL2,Halkirk 2 (HAL2)*,WIND,WIND,122.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,70.4754,2024-10-24 23:00:00+00:00,2024-11-08 15:00:00+00:00,122.0
+WPT1,Wapiti (WPT1)*,GAS,Cogeneration,30.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,0.1296,2025-03-14 16:00:00+00:00,2025-03-14 16:00:00+00:00,30.0
+VKW1,Kenilworth 1 (VKW1)*,GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.9584,2024-10-11 16:00:00+00:00,2025-08-01 00:00:00+00:00,5.0
+CLD1,Lethbridge Solar (CLD1),SOLAR,SOLAR,9.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,8.5666,2024-10-15 16:00:00+00:00,2025-08-01 02:00:00+00:00,9.0
+ACD1,Big Sky Solar (ACD1),SOLAR,SOLAR,140.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,139.816,2024-11-22 18:00:00+00:00,2025-08-01 02:00:00+00:00,140.0
+VNV1,Northern Valley 1 (VNV1)*,GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.9896,2024-11-15 22:00:00+00:00,2025-08-01 00:00:00+00:00,5.0
+WIN1,Winnifred Wind (WIN1)*,WIND,WIND,136.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,131.424,2024-12-04 00:00:00+00:00,2025-08-01 05:00:00+00:00,136.0
+VBR1,Briker 1 (VBR1)*,GAS,Simple Cycle,5.0,"AESO Current Supply and Demand report, 25 October 2026",Thermal,4.896,2024-12-16 21:00:00+00:00,2025-08-01 00:00:00+00:00,5.0
+WIR1,Wild Rose (WIR1),WIND,WIND,192.0,"AESO Current Supply and Demand report, 25 October 2026",Wind,135.672,2024-12-18 21:00:00+00:00,2025-08-01 05:00:00+00:00,192.0
+GLE1,Gleichen Solar (GLE1),SOLAR,SOLAR,14.0,"AESO Current Supply and Demand report, 25 October 2026",Solar,13.2444,2025-04-10 18:00:00+00:00,2025-08-01 02:00:00+00:00,14.0
+ETL1,ETL1 Ethel Lake (ETL1)*,BIOMASS,BIOMASS AND OTHER,18.0,"AESO Current Supply and Demand report, 25 October 2026",Other,0.0,,,18.0

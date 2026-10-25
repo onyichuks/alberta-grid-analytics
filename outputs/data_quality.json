@@ -1,0 +1,177 @@
+{
+ "files": {
+  "Hourly_Metered_Volumes_and_Pool_Price_and_AIL_2010-2019.csv": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Hourly_Metered_Volumes_and_Pool_Price_and_AIL_2010-2019.csv",
+   "sha256_expected": "52fbff7fc325aad40043ce997fe79dc58f08af8a3b398a2564129b4a07dd0f50",
+   "sha256": "52fbff7fc325aad40043ce997fe79dc58f08af8a3b398a2564129b4a07dd0f50",
+   "match": true
+  },
+  "Hourly_Metered_Volumes_and_Pool_Price_and_AIL_2020-Jul2025.csv": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Hourly_Metered_Volumes_and_Pool_Price_and_AIL_2020-Jul2025.csv",
+   "sha256_expected": "6fbd272eb2db3638e86b22fa7965474cbcb91a946257abef232529db0c5f62da",
+   "sha256": "6fbd272eb2db3638e86b22fa7965474cbcb91a946257abef232529db0c5f62da",
+   "match": true
+  },
+  "Constrained-MW-by-Planning-Area-and-Fuel-Type.csv": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Constrained-MW-by-Planning-Area-and-Fuel-Type.csv",
+   "sha256_expected": "dad7cc4b31fdcd1d6420b5fe1dbbbb778027256325873fb197f9de0b96621351",
+   "sha256": "dad7cc4b31fdcd1d6420b5fe1dbbbb778027256325873fb197f9de0b96621351",
+   "match": true
+  },
+  "CSD-Assets.xlsx": {
+   "url": "https://aeso.ca/assets/Uploads/CSD-Assets.xlsx",
+   "sha256_expected": "757768faa20277a8b75a91fb6ab1d129826c5230e1843052a868b03976fa779d",
+   "sha256": "757768faa20277a8b75a91fb6ab1d129826c5230e1843052a868b03976fa779d",
+   "match": true
+  },
+  "AESO-Planning-Areas-2020-06-23.zip": {
+   "url": "https://aeso.ca/assets/Uploads/AESO-Planning-Areas-2020-06-23.zip",
+   "sha256_expected": "613b7aafdaf4c67468429148c8c0e563ddfe21b4be3c47dc47dd30e1e5aa5ca7",
+   "sha256": "613b7aafdaf4c67468429148c8c0e563ddfe21b4be3c47dc47dd30e1e5aa5ca7",
+   "match": true
+  },
+  "BC-MATL-Flows-Scheduled-Flows.xlsx": {
+   "url": "https://aeso.ca/assets/Uploads/BC-MATL-Flows-Scheduled-Flows.xlsx",
+   "sha256_expected": "c418e84b48ff4aceb573c770733c6c3572c7220373cd72812b9d20d8451da96f",
+   "sha256": "c418e84b48ff4aceb573c770733c6c3572c7220373cd72812b9d20d8451da96f",
+   "match": true
+  },
+  "Transmission-Outages.xlsx": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Transmission-Outages.xlsx",
+   "sha256_expected": "ee4eb22f564f587d80f851b82df4460af19a3bbd971864018aa66d34f731f3f0",
+   "sha256": "ee4eb22f564f587d80f851b82df4460af19a3bbd971864018aa66d34f731f3f0",
+   "match": true
+  },
+  "WPF-Day-Ahead-Forecast.xlsx": {
+   "url": "https://aeso.ca/assets/Uploads/WPF-Day-Ahead-Forecast.xlsx",
+   "sha256_expected": "382800940a2c6aec75d64cbfcacceef37fd468c3a99c086dacb4696c74115562",
+   "sha256": "382800940a2c6aec75d64cbfcacceef37fd468c3a99c086dacb4696c74115562",
+   "match": true
+  },
+  "Planning-Area-Load-Hourly-2023.zip": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Planning-Area-Load/Planning-Area-Load-Hourly-2023.zip",
+   "sha256_expected": "8da4826725294ac9a67702f4da307d1d117339a21e12852e03a3f799a9918e77",
+   "sha256": "8da4826725294ac9a67702f4da307d1d117339a21e12852e03a3f799a9918e77",
+   "match": true
+  },
+  "Planning-Area-Load-Hourly-2024.zip": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Planning-Area-Load/Planning-Area-Load-Hourly-2024.zip",
+   "sha256_expected": "8a9f72e7ffe3955bee08d90ee579a77a2a7a0bd8aac66a8812033899b4829225",
+   "sha256": "8a9f72e7ffe3955bee08d90ee579a77a2a7a0bd8aac66a8812033899b4829225",
+   "match": true
+  },
+  "Planning-Area-Load-Hourly-2025.zip": {
+   "url": "https://aeso.ca/assets/Uploads/data-requests/Planning-Area-Load/Planning-Area-Load-Hourly-2025.zip",
+   "sha256_expected": "f650d7449a8c93214545925af4c81cc1561df7503322fe40ec61307332b56df8",
+   "sha256": "f650d7449a8c93214545925af4c81cc1561df7503322fe40ec61307332b56df8",
+   "match": true
+  }
+ },
+ "continuity": {
+  "start": "2010-01-01T07:00:00+00:00",
+  "end": "2025-08-01T05:00:00+00:00",
+  "hours": 136583,
+  "duplicates": 0,
+  "gaps": 0,
+  "expected_hours": 136583
+ },
+ "price": {
+  "missing": 0,
+  "below_floor": 0,
+  "above_cap": 0,
+  "at_cap_hours": 160,
+  "zero_price_hours": 897,
+  "max": 1000.0,
+  "min": 0.0
+ },
+ "hour_ahead_forecast_missing": 4,
+ "ail": {
+  "min": 6459.0,
+  "max": 12384.0,
+  "largest_hourly_change_mw": 648.0,
+  "stuck_runs_24h": 0
+ },
+ "supply_balance": {
+  "share_mean": 0.7598300200878624,
+  "share_by_year": {
+   "2010": 0.797,
+   "2011": 0.794,
+   "2012": 0.78,
+   "2013": 0.778,
+   "2014": 0.78,
+   "2015": 0.777,
+   "2016": 0.778,
+   "2017": 0.767,
+   "2018": 0.75,
+   "2019": 0.74,
+   "2020": 0.738,
+   "2021": 0.732,
+   "2022": 0.735,
+   "2023": 0.73,
+   "2024": 0.734,
+   "2025": 0.741
+  },
+  "flagged_hours": 0,
+  "flagged_share_pct": 0.0,
+  "flagged_examples": []
+ },
+ "assets": {
+  "assets": 242,
+  "negative_value_hours": 0,
+  "assets_with_negative_values": [],
+  "stuck_runs_24h": {
+   "WCD1": 4
+  },
+  "hours_above_110pct_capability": {
+   "BCR2": 2,
+   "EAGL": 4,
+   "ENC2": 5,
+   "ENC3": 7,
+   "IOR1": 11726,
+   "ME02": 2,
+   "RB5": 24887,
+   "RYMD": 2,
+   "SCR1": 354,
+   "CRR1": 1,
+   "WEF1": 5,
+   "CLY1": 290,
+   "GNR1": 231,
+   "GNR2": 93
+  },
+  "no_output_assets": [
+   "RB1",
+   "RB3",
+   "RG10",
+   "RG8",
+   "RG9",
+   "ST1",
+   "ST2",
+   "WWD2",
+   "BON1",
+   "ETL1"
+  ]
+ },
+ "weather_missing": 0,
+ "provisional_hours_apr_jul_2025": 2928,
+ "constrained": {
+  "rows": 51458,
+  "start": "2020-02-20T20:00:00+00:00",
+  "end": "2026-01-01T05:00:00+00:00",
+  "duplicates": 0,
+  "negative_mw": 0,
+  "minutes_out_of_range": 0,
+  "planning_areas": 30,
+  "fuels": [
+   "ENERGY STORAGE",
+   "HYDRO",
+   "SOLAR",
+   "THERMAL",
+   "WIND"
+  ]
+ },
+ "wind_forecast": {
+  "rows": 50646,
+  "order_violations": 0,
+  "duplicate_hours": 0
+ }
+}

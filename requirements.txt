@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+pyarrow>=14
+openpyxl>=3.1
+holidays>=0.50
+pyshp>=2.3
+pyproj>=3.6
+matplotlib>=3.8
+statsmodels>=0.14   # linear quantile regression baseline (run_ml_analysis.py)
+mcp>=1.2,<2     # AI agent server (src/gridanalytics/mcp_server.py); 2.x renamed FastMCP
+pytest>=8
